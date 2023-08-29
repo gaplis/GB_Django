@@ -1,0 +1,45 @@
+Watching for file changes with StatReloader
+C:\Users\gapli\Downloads\GB_Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+"GET /prefix/ HTTP/1.1" 200 13
+"GET /prefix/about HTTP/1.1" 301 0
+"GET /prefix/about/ HTTP/1.1" 200 27
+C:\Users\gapli\Downloads\GB_Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2169
+Index page accessed
+"GET /prefix/ HTTP/1.1" 200 13
+Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\myproject\myapp\views.py", line 17, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+"GET /prefix/about/ HTTP/1.1" 200 27
+C:\Users\gapli\Downloads\GB_Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\gapli\Downloads\GB_Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\gapli\Downloads\GB_Django\myproject\myproject\settings.py changed, reloading.
+INFO 2023-08-29 18:22:45,746 autoreload 16412 14812 Watching for file changes with StatReloader
+WARNING 2023-08-29 18:22:55,753 log 16412 8932 Not Found: /
+WARNING 2023-08-29 18:22:55,754 basehttp 16412 8932 "GET / HTTP/1.1" 404 2169
+INFO 2023-08-29 18:22:59,384 views 16412 8932 Index page accessed
+INFO 2023-08-29 18:22:59,384 basehttp 16412 8932 "GET /prefix/ HTTP/1.1" 200 13
+ERROR 2023-08-29 18:23:02,272 views 16412 8932 Error in about page: division by zero
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\myproject\myapp\views.py", line 17, in about
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+INFO 2023-08-29 18:23:02,273 basehttp 16412 8932 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2023-08-29 18:26:20,568 autoreload 6772 6904 Watching for file changes with StatReloader
+WARNING 2023-08-29 18:26:22,085 log 6772 18376 Not Found: /
+WARNING 2023-08-29 18:26:22,085 basehttp 6772 18376 "GET / HTTP/1.1" 404 2169
+INFO 2023-08-29 18:26:24,977 views 6772 18376 Index page accessed
+INFO 2023-08-29 18:26:24,978 basehttp 6772 18376 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2023-08-29 18:26:25,460 views 6772 18376 Index page accessed
+INFO 2023-08-29 18:26:25,461 basehttp 6772 18376 "GET /prefix/ HTTP/1.1" 200 13
