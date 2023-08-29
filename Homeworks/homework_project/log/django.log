@@ -1,0 +1,6 @@
+INFO 2023-08-29 20:34:39,637 autoreload 18160 16272 Watching for file changes with StatReloader
+INFO 2023-08-29 20:34:41,220 basehttp 18160 7516 "GET / HTTP/1.1" 200 208
+INFO 2023-08-29 20:34:50,741 basehttp 18160 7516 "GET /about/ HTTP/1.1" 200 94
+INFO 2023-08-29 20:36:17,769 autoreload 17584 19912 Watching for file changes with StatReloader
+INFO 2023-08-29 20:36:19,199 basehttp 17584 20128 "GET / HTTP/1.1" 200 208
+INFO 2023-08-29 20:36:22,701 basehttp 17584 20128 "GET /about/ HTTP/1.1" 200 94
