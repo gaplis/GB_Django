@@ -43,3 +43,6 @@ INFO 2023-08-29 18:26:24,977 views 6772 18376 Index page accessed
 INFO 2023-08-29 18:26:24,978 basehttp 6772 18376 "GET /prefix/ HTTP/1.1" 200 13
 INFO 2023-08-29 18:26:25,460 views 6772 18376 Index page accessed
 INFO 2023-08-29 18:26:25,461 basehttp 6772 18376 "GET /prefix/ HTTP/1.1" 200 13
+INFO 2023-08-29 22:07:52,757 autoreload 6832 9652 Watching for file changes with StatReloader
+INFO 2023-08-29 22:09:18,493 autoreload 1912 20424 Watching for file changes with StatReloader
+INFO 2023-08-29 22:12:28,359 autoreload 11468 9400 Watching for file changes with StatReloader
