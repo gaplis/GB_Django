@@ -1,0 +1,24 @@
+INFO 2023-08-29 19:46:19,351 autoreload 13000 16492 Watching for file changes with StatReloader
+INFO 2023-08-29 19:46:20,264 basehttp 13000 2876 "GET / HTTP/1.1" 200 13
+INFO 2023-08-29 19:46:34,490 basehttp 13000 2876 "GET /sem_1_app_2/heads_tails/ HTTP/1.1" 200 8
+INFO 2023-08-29 19:46:39,105 basehttp 13000 2876 "GET /sem_1_app_2/cube HTTP/1.1" 301 0
+INFO 2023-08-29 19:46:39,110 basehttp 13000 19860 "GET /sem_1_app_2/cube/ HTTP/1.1" 200 1
+INFO 2023-08-29 19:46:40,852 basehttp 13000 19860 "GET /sem_1_app_2/cube/ HTTP/1.1" 200 1
+INFO 2023-08-29 19:46:41,003 basehttp 13000 19860 "GET /sem_1_app_2/cube/ HTTP/1.1" 200 1
+INFO 2023-08-29 19:46:41,120 basehttp 13000 19860 "GET /sem_1_app_2/cube/ HTTP/1.1" 200 1
+INFO 2023-08-29 19:46:45,036 basehttp 13000 19860 "GET /sem_1_app_2/heads_tails/ HTTP/1.1" 200 8
+INFO 2023-08-29 19:46:46,426 basehttp 13000 19860 "GET /sem_1_app_2/heads_tails/ HTTP/1.1" 200 10
+INFO 2023-08-29 19:46:46,855 basehttp 13000 19860 "GET /sem_1_app_2/heads_tails/ HTTP/1.1" 200 8
+INFO 2023-08-29 19:46:47,348 basehttp 13000 19860 "GET /sem_1_app_2/heads_tails/ HTTP/1.1" 200 8
+INFO 2023-08-29 19:46:47,694 basehttp 13000 19860 "GET /sem_1_app_2/heads_tails/ HTTP/1.1" 200 8
+INFO 2023-08-29 19:46:48,292 basehttp 13000 19860 "GET /sem_1_app_2/heads_tails/ HTTP/1.1" 200 8
+INFO 2023-08-29 19:46:48,643 basehttp 13000 19860 "GET /sem_1_app_2/heads_tails/ HTTP/1.1" 200 10
+WARNING 2023-08-29 19:46:53,365 log 13000 19860 Not Found: /sem_1_app_2/rand_naum
+WARNING 2023-08-29 19:46:53,366 basehttp 13000 19860 "GET /sem_1_app_2/rand_naum HTTP/1.1" 404 2863
+INFO 2023-08-29 19:46:56,842 basehttp 13000 19860 "GET /sem_1_app_2/rand_num HTTP/1.1" 301 0
+INFO 2023-08-29 19:46:56,849 basehttp 13000 17488 "GET /sem_1_app_2/rand_num/ HTTP/1.1" 200 2
+INFO 2023-08-29 19:46:58,107 basehttp 13000 17488 "GET /sem_1_app_2/rand_num/ HTTP/1.1" 200 2
+INFO 2023-08-29 19:46:58,256 basehttp 13000 17488 "GET /sem_1_app_2/rand_num/ HTTP/1.1" 200 2
+INFO 2023-08-29 19:46:58,419 basehttp 13000 17488 "GET /sem_1_app_2/rand_num/ HTTP/1.1" 200 2
+INFO 2023-08-29 19:46:58,611 basehttp 13000 17488 "GET /sem_1_app_2/rand_num/ HTTP/1.1" 200 2
+INFO 2023-08-29 19:46:58,718 basehttp 13000 17488 "GET /sem_1_app_2/rand_num/ HTTP/1.1" 200 1
