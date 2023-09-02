@@ -22,3 +22,116 @@ INFO 2023-08-29 19:46:58,256 basehttp 13000 17488 "GET /sem_1_app_2/rand_num/ HT
 INFO 2023-08-29 19:46:58,419 basehttp 13000 17488 "GET /sem_1_app_2/rand_num/ HTTP/1.1" 200 2
 INFO 2023-08-29 19:46:58,611 basehttp 13000 17488 "GET /sem_1_app_2/rand_num/ HTTP/1.1" 200 2
 INFO 2023-08-29 19:46:58,718 basehttp 13000 17488 "GET /sem_1_app_2/rand_num/ HTTP/1.1" 200 1
+INFO 2023-09-01 16:48:28,409 autoreload 17036 11116 Watching for file changes with StatReloader
+INFO 2023-09-01 16:48:30,391 basehttp 17036 8876 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-01 16:48:30,545 log 17036 8876 Not Found: /favicon.ico
+WARNING 2023-09-01 16:48:30,545 basehttp 17036 8876 "GET /favicon.ico HTTP/1.1" 404 2498
+WARNING 2023-09-01 16:48:33,542 log 17036 8876 Not Found: /docs
+WARNING 2023-09-01 16:48:33,542 basehttp 17036 8876 "GET /docs HTTP/1.1" 404 2477
+WARNING 2023-09-01 16:48:34,768 log 17036 8876 Not Found: /dem_2
+WARNING 2023-09-01 16:48:34,769 basehttp 17036 8876 "GET /dem_2 HTTP/1.1" 404 2480
+INFO 2023-09-01 16:48:40,639 basehttp 17036 8876 "GET /sem_2 HTTP/1.1" 301 0
+INFO 2023-09-01 16:48:40,647 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 80
+INFO 2023-09-01 16:48:48,706 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 79
+INFO 2023-09-01 16:48:49,220 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 79
+INFO 2023-09-01 16:48:49,598 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 80
+INFO 2023-09-01 16:48:49,811 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 79
+INFO 2023-09-01 16:48:49,990 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 80
+INFO 2023-09-01 16:48:50,147 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 80
+INFO 2023-09-01 16:48:50,310 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 79
+INFO 2023-09-01 16:48:50,478 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 79
+INFO 2023-09-01 16:48:50,653 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 80
+INFO 2023-09-01 16:48:50,820 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 80
+INFO 2023-09-01 16:48:50,987 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 80
+INFO 2023-09-01 16:48:51,145 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 80
+INFO 2023-09-01 16:48:51,292 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 79
+INFO 2023-09-01 16:48:51,452 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 80
+INFO 2023-09-01 16:48:51,610 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 79
+INFO 2023-09-01 16:48:51,777 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 79
+INFO 2023-09-01 16:48:51,952 basehttp 17036 10616 "GET /sem_2/ HTTP/1.1" 200 80
+WARNING 2023-09-01 16:48:56,803 log 17036 10616 Not Found: /sem_2/re
+WARNING 2023-09-01 16:48:56,803 basehttp 17036 10616 "GET /sem_2/re HTTP/1.1" 404 2727
+ERROR 2023-09-01 16:49:02,929 log 17036 10616 Internal Server Error: /sem_2/last/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\views.py", line 18, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\models.py", line 16, in return_last
+    return self.objects.all()[:n]
+           ^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\db\models\manager.py", line 186, in __get__
+    raise AttributeError(
+AttributeError: Manager isn't accessible via GameModel instances
+ERROR 2023-09-01 16:49:02,931 basehttp 17036 10616 "GET /sem_2/last/ HTTP/1.1" 500 72241
+INFO 2023-09-01 16:50:30,264 autoreload 17036 11116 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\models.py changed, reloading.
+INFO 2023-09-01 16:50:30,761 autoreload 19468 16036 Watching for file changes with StatReloader
+INFO 2023-09-01 16:50:39,215 autoreload 19468 16036 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\models.py changed, reloading.
+INFO 2023-09-01 16:50:39,684 autoreload 17120 1676 Watching for file changes with StatReloader
+INFO 2023-09-01 16:51:05,826 basehttp 17120 12744 "GET /sem_2/last/ HTTP/1.1" 200 398
+INFO 2023-09-01 16:51:13,297 basehttp 17120 12744 "GET /sem_2/last/ HTTP/1.1" 200 398
+INFO 2023-09-01 16:51:16,212 basehttp 17120 12744 "GET /sem_2/last/ HTTP/1.1" 200 398
+INFO 2023-09-01 16:51:36,138 autoreload 17120 1676 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\models.py changed, reloading.
+INFO 2023-09-01 16:51:36,608 autoreload 19388 13340 Watching for file changes with StatReloader
+INFO 2023-09-01 16:52:03,376 autoreload 19388 13340 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\views.py changed, reloading.
+INFO 2023-09-01 16:52:03,883 autoreload 6444 5720 Watching for file changes with StatReloader
+INFO 2023-09-01 16:53:10,404 autoreload 6444 5720 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\views.py changed, reloading.
+INFO 2023-09-01 16:53:10,872 autoreload 5160 5892 Watching for file changes with StatReloader
+INFO 2023-09-01 16:53:45,829 autoreload 5160 5892 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\views.py changed, reloading.
+INFO 2023-09-01 16:53:46,310 autoreload 3284 15600 Watching for file changes with StatReloader
+INFO 2023-09-01 16:54:59,990 autoreload 3284 15600 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\views.py changed, reloading.
+INFO 2023-09-01 16:55:00,465 autoreload 7408 15092 Watching for file changes with StatReloader
+INFO 2023-09-01 16:55:29,094 autoreload 7408 15092 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\views.py changed, reloading.
+INFO 2023-09-01 16:55:29,582 autoreload 10616 9868 Watching for file changes with StatReloader
+INFO 2023-09-01 16:55:34,578 basehttp 10616 5036 "GET /sem_2/last/ HTTP/1.1" 200 418
+INFO 2023-09-01 16:56:46,479 autoreload 10616 9868 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\models.py changed, reloading.
+INFO 2023-09-01 16:56:46,968 autoreload 16492 10664 Watching for file changes with StatReloader
+ERROR 2023-09-01 16:56:53,114 log 16492 18828 Internal Server Error: /sem_2/last/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\views.py", line 18, in last_games
+    last = GameModel().return_last(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\models.py", line 17, in return_last
+    return GameModel.objects.all()[:-n]
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\db\models\query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-09-01 16:56:53,117 basehttp 16492 18828 "GET /sem_2/last/ HTTP/1.1" 500 74081
+INFO 2023-09-01 16:56:57,553 autoreload 16492 10664 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\models.py changed, reloading.
+INFO 2023-09-01 16:56:58,062 autoreload 15448 7332 Watching for file changes with StatReloader
+INFO 2023-09-01 16:57:25,885 autoreload 15448 7332 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\models.py changed, reloading.
+INFO 2023-09-01 16:57:26,342 autoreload 5940 2172 Watching for file changes with StatReloader
+INFO 2023-09-01 16:57:33,198 basehttp 5940 15356 "GET /sem_2/last/ HTTP/1.1" 200 417
+INFO 2023-09-01 16:57:33,926 basehttp 5940 15356 "GET /sem_2/last/ HTTP/1.1" 200 417
+INFO 2023-09-01 16:57:40,011 autoreload 5940 2172 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\models.py changed, reloading.
+INFO 2023-09-01 16:57:40,445 autoreload 18324 8620 Watching for file changes with StatReloader
+INFO 2023-09-01 16:57:42,525 basehttp 18324 13000 "GET /sem_2/last/ HTTP/1.1" 200 418
+INFO 2023-09-01 16:57:55,102 autoreload 18324 8620 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\models.py changed, reloading.
+INFO 2023-09-01 16:57:55,535 autoreload 15036 17916 Watching for file changes with StatReloader
+INFO 2023-09-01 16:57:57,276 basehttp 15036 13008 "GET /sem_2/last/ HTTP/1.1" 200 417
+INFO 2023-09-01 17:33:50,424 autoreload 3792 18248 Watching for file changes with StatReloader
+INFO 2023-09-01 17:33:52,057 basehttp 3792 6044 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-01 17:33:54,797 log 3792 6044 Not Found: /h
+WARNING 2023-09-01 17:33:54,798 basehttp 3792 6044 "GET /h HTTP/1.1" 404 2468
+INFO 2023-09-01 17:34:00,142 basehttp 3792 6044 "GET /sem_2/ HTTP/1.1" 200 80
+WARNING 2023-09-01 17:34:02,820 log 3792 6044 Not Found: /sem_2/g
+WARNING 2023-09-01 17:34:02,820 basehttp 3792 6044 "GET /sem_2/g HTTP/1.1" 404 2901
+INFO 2023-09-01 17:34:07,618 basehttp 3792 6044 "GET /sem_2/authors/ HTTP/1.1" 200 144
+INFO 2023-09-01 17:34:35,714 autoreload 3792 18248 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\views.py changed, reloading.
+INFO 2023-09-01 17:34:36,187 autoreload 13000 19936 Watching for file changes with StatReloader
+INFO 2023-09-01 17:34:40,683 basehttp 13000 18812 "GET /sem_2/authors/ HTTP/1.1" 200 180
+INFO 2023-09-01 17:35:02,082 autoreload 13000 19936 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\views.py changed, reloading.
+INFO 2023-09-01 17:35:02,583 autoreload 16168 11228 Watching for file changes with StatReloader
+INFO 2023-09-01 17:35:03,790 basehttp 16168 13812 "GET /sem_2/authors/ HTTP/1.1" 200 180
