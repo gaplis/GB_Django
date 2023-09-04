@@ -46,3 +46,63 @@ INFO 2023-08-29 18:26:25,461 basehttp 6772 18376 "GET /prefix/ HTTP/1.1" 200 13
 INFO 2023-08-29 22:07:52,757 autoreload 6832 9652 Watching for file changes with StatReloader
 INFO 2023-08-29 22:09:18,493 autoreload 1912 20424 Watching for file changes with StatReloader
 INFO 2023-08-29 22:12:28,359 autoreload 11468 9400 Watching for file changes with StatReloader
+INFO 2023-09-03 16:21:29,023 autoreload 2432 9448 Watching for file changes with StatReloader
+WARNING 2023-09-03 16:21:30,473 log 2432 14124 Not Found: /
+WARNING 2023-09-03 16:21:30,474 basehttp 2432 14124 "GET / HTTP/1.1" 404 2274
+WARNING 2023-09-03 16:21:30,546 log 2432 14124 Not Found: /favicon.ico
+WARNING 2023-09-03 16:21:30,547 basehttp 2432 14124 "GET /favicon.ico HTTP/1.1" 404 2325
+WARNING 2023-09-03 16:21:36,604 log 2432 14124 Not Found: /lec3/
+WARNING 2023-09-03 16:21:36,605 basehttp 2432 14124 "GET /lec3/ HTTP/1.1" 404 2548
+INFO 2023-09-03 16:21:40,887 basehttp 2432 14124 "GET /lec3/hello2/ HTTP/1.1" 200 23
+INFO 2023-09-03 16:21:44,309 basehttp 2432 14124 "GET /lec3/hello/ HTTP/1.1" 200 26
+INFO 2023-09-04 10:14:14,514 autoreload 9080 10260 Watching for file changes with StatReloader
+INFO 2023-09-04 16:00:21,617 autoreload 17360 12512 Watching for file changes with StatReloader
+WARNING 2023-09-04 16:00:23,194 log 17360 2376 Not Found: /
+WARNING 2023-09-04 16:00:23,194 basehttp 17360 2376 "GET / HTTP/1.1" 404 2274
+INFO 2023-09-04 16:00:31,408 basehttp 17360 2376 "GET /lec3/ HTTP/1.1" 200 175
+INFO 2023-09-04 16:00:38,067 basehttp 17360 2376 "GET /lec3/if HTTP/1.1" 301 0
+INFO 2023-09-04 16:00:38,076 basehttp 17360 3524 "GET /lec3/if/ HTTP/1.1" 200 326
+WARNING 2023-09-04 16:32:06,798 log 17360 7756 Not Found: /lec3/if/à
+WARNING 2023-09-04 16:32:06,798 basehttp 17360 7756 "GET /lec3/if/%D0%B0 HTTP/1.1" 404 3541
+INFO 2023-09-04 16:33:55,540 autoreload 17360 12512 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp3\urls.py changed, reloading.
+INFO 2023-09-04 16:33:56,020 autoreload 19908 19948 Watching for file changes with StatReloader
+WARNING 2023-09-04 16:36:45,343 log 19908 10128 Not Found: /lec3/if/à
+WARNING 2023-09-04 16:36:45,343 basehttp 19908 10128 "GET /lec3/if/%D0%B0 HTTP/1.1" 404 3715
+WARNING 2023-09-04 16:36:50,844 log 19908 10128 Not Found: /lec3/ for/
+WARNING 2023-09-04 16:36:50,845 basehttp 19908 10128 "GET /lec3/%20for/ HTTP/1.1" 404 3713
+INFO 2023-09-04 16:36:55,330 basehttp 19908 10128 "GET /lec3/for/ HTTP/1.1" 200 771
+INFO 2023-09-04 16:37:14,995 basehttp 19908 10128 "GET /lec3/for/ HTTP/1.1" 200 859
+INFO 2023-09-04 19:31:19,990 autoreload 10476 3692 Watching for file changes with StatReloader
+WARNING 2023-09-04 19:31:22,038 log 10476 17992 Not Found: /
+WARNING 2023-09-04 19:31:22,039 basehttp 10476 17992 "GET / HTTP/1.1" 404 2274
+INFO 2023-09-04 19:31:28,756 basehttp 10476 17992 "GET /lec3/ HTTP/1.1" 200 175
+INFO 2023-09-04 19:31:32,604 basehttp 10476 17992 "GET /lec3/index HTTP/1.1" 301 0
+INFO 2023-09-04 19:31:32,610 basehttp 10476 1980 "GET /lec3/index/ HTTP/1.1" 200 248
+INFO 2023-09-04 19:31:38,273 basehttp 10476 1980 "GET /lec3/about/ HTTP/1.1" 200 235
+INFO 2023-09-04 19:31:54,994 basehttp 10476 1980 "GET /lec3/about/ HTTP/1.1" 200 295
+INFO 2023-09-04 19:31:59,217 basehttp 10476 1980 "GET /lec3/ HTTP/1.1" 200 175
+INFO 2023-09-04 19:32:01,016 basehttp 10476 1980 "GET /lec3/index/ HTTP/1.1" 200 308
+INFO 2023-09-04 19:35:07,167 autoreload 10476 3692 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myproject\urls.py changed, reloading.
+INFO 2023-09-04 19:35:07,663 autoreload 3672 9608 Watching for file changes with StatReloader
+INFO 2023-09-04 19:37:21,639 autoreload 3672 9608 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp3\models.py changed, reloading.
+INFO 2023-09-04 19:37:22,102 autoreload 8052 8024 Watching for file changes with StatReloader
+INFO 2023-09-04 19:38:04,234 autoreload 8052 8024 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp3\models.py changed, reloading.
+INFO 2023-09-04 19:38:04,737 autoreload 3688 17732 Watching for file changes with StatReloader
+INFO 2023-09-04 20:12:19,679 autoreload 19776 8060 Watching for file changes with StatReloader
+INFO 2023-09-04 20:12:22,244 basehttp 19776 14408 "GET / HTTP/1.1" 200 308
+WARNING 2023-09-04 20:13:07,263 log 19776 14408 Not Found: /author/5
+WARNING 2023-09-04 20:13:07,264 basehttp 19776 14408 "GET /author/5 HTTP/1.1" 404 2416
+INFO 2023-09-04 20:13:39,774 basehttp 19776 14408 "GET /lec3/author/5 HTTP/1.1" 301 0
+INFO 2023-09-04 20:13:39,785 basehttp 19776 11300 "GET /lec3/author/5/ HTTP/1.1" 200 1022
+INFO 2023-09-04 20:13:42,978 basehttp 19776 11300 "GET /lec3/post/50/ HTTP/1.1" 200 329
+INFO 2023-09-04 20:13:44,557 basehttp 19776 11300 "GET /lec3/post/46/ HTTP/1.1" 200 330
+INFO 2023-09-04 20:13:48,461 basehttp 19776 11300 "GET /lec3/post/48/ HTTP/1.1" 200 303
+INFO 2023-09-04 20:13:51,728 basehttp 19776 11300 "GET /lec3/post/48/ HTTP/1.1" 200 303
+INFO 2023-09-04 20:13:55,330 basehttp 19776 11300 "GET /lec3/post/49/ HTTP/1.1" 200 319
+INFO 2023-09-04 20:13:59,411 basehttp 19776 11300 "GET /lec3/post/50/ HTTP/1.1" 200 329
+INFO 2023-09-04 20:14:04,017 basehttp 19776 11300 "GET /lec3/post/56/ HTTP/1.1" 200 328
+WARNING 2023-09-04 20:14:09,842 log 19776 11300 Not Found: /lec3/post/101/
+WARNING 2023-09-04 20:14:09,842 basehttp 19776 11300 "GET /lec3/post/101/ HTTP/1.1" 404 4622
+INFO 2023-09-04 20:14:17,213 basehttp 19776 11300 "GET /lec3/author/10/ HTTP/1.1" 200 994
+WARNING 2023-09-04 20:14:20,367 log 19776 11300 Not Found: /lec3/author/11/
+WARNING 2023-09-04 20:14:20,368 basehttp 19776 11300 "GET /lec3/author/11/ HTTP/1.1" 404 4435
