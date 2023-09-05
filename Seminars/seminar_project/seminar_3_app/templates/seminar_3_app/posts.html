@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+{% for post in posts %}
+{% if post.publish %}
+<!--<li><a href="{% url 'post' post.id %}">{{ post.title }} {{ post.post }} {{ post.category }}</a></li>-->
+<li><a href="{{ post.get_absolute_url }}">{{ post.title }} {{ post.post }} {{ post.category }}</a></li>
+{% else %}
+<li>{{ post.title }} {{ post.post }} {{ post.category }}</li>
+{% endif %}
+{% endfor %}
+{% endblock %}

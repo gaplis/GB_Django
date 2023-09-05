@@ -135,3 +135,1158 @@ INFO 2023-09-01 17:34:40,683 basehttp 13000 18812 "GET /sem_2/authors/ HTTP/1.1"
 INFO 2023-09-01 17:35:02,082 autoreload 13000 19936 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_2_app\views.py changed, reloading.
 INFO 2023-09-01 17:35:02,583 autoreload 16168 11228 Watching for file changes with StatReloader
 INFO 2023-09-01 17:35:03,790 basehttp 16168 13812 "GET /sem_2/authors/ HTTP/1.1" 200 180
+INFO 2023-09-05 10:04:16,880 autoreload 5648 11628 Watching for file changes with StatReloader
+INFO 2023-09-05 10:05:51,410 autoreload 7780 18968 Watching for file changes with StatReloader
+INFO 2023-09-05 10:05:52,613 basehttp 7780 13816 "GET / HTTP/1.1" 200 13
+INFO 2023-09-05 10:05:57,989 basehttp 7780 13816 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-05 10:06:00,881 log 7780 13816 Not Found: /docs
+WARNING 2023-09-05 10:06:00,882 basehttp 7780 13816 "GET /docs HTTP/1.1" 404 2583
+WARNING 2023-09-05 10:06:06,897 log 7780 13816 Not Found: /sem_3/
+WARNING 2023-09-05 10:06:06,898 basehttp 7780 13816 "GET /sem_3/ HTTP/1.1" 404 2827
+ERROR 2023-09-05 10:06:12,676 log 7780 13816 Internal Server Error: /sem_3/home/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: seminar_3_app/main.html
+ERROR 2023-09-05 10:06:12,681 basehttp 7780 13816 "GET /sem_3/home/ HTTP/1.1" 500 80818
+INFO 2023-09-05 10:07:24,861 autoreload 7780 18968 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py changed, reloading.
+INFO 2023-09-05 10:07:25,669 autoreload 3996 18216 Watching for file changes with StatReloader
+INFO 2023-09-05 10:07:28,440 basehttp 3996 15012 "GET /sem_3/home/ HTTP/1.1" 200 341
+INFO 2023-09-05 10:07:34,804 basehttp 3996 15012 "GET /sem_3/about HTTP/1.1" 301 0
+INFO 2023-09-05 10:07:34,811 basehttp 3996 19544 "GET /sem_3/about/ HTTP/1.1" 200 227
+INFO 2023-09-05 10:14:49,320 autoreload 4480 19176 Watching for file changes with StatReloader
+INFO 2023-09-05 10:14:59,432 basehttp 4480 10976 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-05 10:15:03,373 log 4480 10976 Not Found: /sem_3
+WARNING 2023-09-05 10:15:03,374 basehttp 4480 10976 "GET /sem_3 HTTP/1.1" 404 2586
+WARNING 2023-09-05 10:15:09,726 log 4480 10976 Not Found: /sem_3/
+WARNING 2023-09-05 10:15:09,727 basehttp 4480 10976 "GET /sem_3/ HTTP/1.1" 404 2827
+INFO 2023-09-05 10:15:14,372 basehttp 4480 10976 "GET /sem_3/about/ HTTP/1.1" 200 0
+INFO 2023-09-05 10:15:33,813 basehttp 4480 10976 "GET /sem_3/about/ HTTP/1.1" 200 0
+ERROR 2023-09-05 10:15:34,499 log 4480 10976 Internal Server Error: /sem_3/about/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-09-05 10:15:34,504 basehttp 4480 10976 "GET /sem_3/about/ HTTP/1.1" 500 127690
+ERROR 2023-09-05 10:16:16,439 log 4480 10976 Internal Server Error: /sem_3/about/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-09-05 10:16:16,441 basehttp 4480 10976 "GET /sem_3/about/ HTTP/1.1" 500 127690
+ERROR 2023-09-05 10:16:17,234 log 4480 10976 Internal Server Error: /sem_3/about/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-09-05 10:16:17,239 basehttp 4480 10976 "GET /sem_3/about/ HTTP/1.1" 500 127690
+ERROR 2023-09-05 10:16:33,219 log 4480 10976 Internal Server Error: /sem_3/about/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 132, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 129, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 107, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\engine.py", line 161, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2023-09-05 10:16:33,224 basehttp 4480 10976 "GET /sem_3/about/ HTTP/1.1" 500 127690
+INFO 2023-09-05 10:16:38,355 autoreload 18356 9384 Watching for file changes with StatReloader
+INFO 2023-09-05 10:16:41,174 basehttp 18356 19488 "GET /sem_3/about/ HTTP/1.1" 200 229
+INFO 2023-09-05 10:16:47,903 basehttp 18356 19488 "GET /sem_3/about/ HTTP/1.1" 200 229
+INFO 2023-09-05 10:16:50,254 basehttp 18356 19488 "GET /sem_3/about/ HTTP/1.1" 200 133
+INFO 2023-09-05 10:17:05,553 basehttp 18356 19488 "GET /sem_3/about/ HTTP/1.1" 200 177
+INFO 2023-09-05 10:17:09,989 basehttp 18356 19488 "GET /sem_3/about/ HTTP/1.1" 200 177
+INFO 2023-09-05 10:17:10,522 basehttp 18356 19488 "GET /sem_3/about/ HTTP/1.1" 200 229
+WARNING 2023-09-05 10:17:14,848 log 18356 19488 Not Found: /sem_3/main
+WARNING 2023-09-05 10:17:14,849 basehttp 18356 19488 "GET /sem_3/main HTTP/1.1" 404 2839
+INFO 2023-09-05 10:17:20,362 basehttp 18356 19488 "GET /sem_3/home HTTP/1.1" 301 0
+INFO 2023-09-05 10:17:20,375 basehttp 18356 19652 "GET /sem_3/home/ HTTP/1.1" 200 343
+INFO 2023-09-05 10:32:07,662 autoreload 21148 9696 Watching for file changes with StatReloader
+INFO 2023-09-05 10:32:08,795 basehttp 21148 21848 "GET / HTTP/1.1" 200 13
+INFO 2023-09-05 10:32:13,192 basehttp 21148 21848 "GET /sem_3/about/ HTTP/1.1" 200 229
+WARNING 2023-09-05 10:32:17,510 log 21148 21848 Not Found: /sem_3/
+WARNING 2023-09-05 10:32:17,511 basehttp 21148 21848 "GET /sem_3/ HTTP/1.1" 404 3398
+WARNING 2023-09-05 10:32:21,320 log 21148 21848 Not Found: /sem_3/orel
+WARNING 2023-09-05 10:32:21,320 basehttp 21148 21848 "GET /sem_3/orel HTTP/1.1" 404 3410
+INFO 2023-09-05 10:32:24,559 basehttp 21148 21848 "GET /sem_3/orel/1 HTTP/1.1" 301 0
+INFO 2023-09-05 10:32:24,568 basehttp 21148 11928 "GET /sem_3/orel/1/ HTTP/1.1" 200 229
+INFO 2023-09-05 10:32:45,519 basehttp 21148 11928 "GET /sem_3/orel/1/ HTTP/1.1" 200 229
+INFO 2023-09-05 10:32:48,074 basehttp 21148 11928 "GET /sem_3/orel/6 HTTP/1.1" 301 0
+INFO 2023-09-05 10:32:48,084 basehttp 21148 11396 "GET /sem_3/orel/6/ HTTP/1.1" 200 229
+INFO 2023-09-05 10:33:16,889 autoreload 21148 9696 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\urls.py changed, reloading.
+INFO 2023-09-05 10:33:17,709 autoreload 14972 11500 Watching for file changes with StatReloader
+INFO 2023-09-05 10:33:18,393 basehttp 14972 22456 "GET /sem_3/orel/6/ HTTP/1.1" 200 252
+INFO 2023-09-05 10:33:21,863 basehttp 14972 22456 "GET /sem_3/orel/0 HTTP/1.1" 301 0
+INFO 2023-09-05 10:33:21,871 basehttp 14972 2240 "GET /sem_3/orel/0/ HTTP/1.1" 200 142
+INFO 2023-09-05 10:33:25,489 basehttp 14972 2240 "GET /sem_3/orel/1/ HTTP/1.1" 200 159
+INFO 2023-09-05 10:33:28,648 basehttp 14972 2240 "GET /sem_3/orel/0/ HTTP/1.1" 200 142
+INFO 2023-09-05 10:33:31,532 basehttp 14972 2240 "GET /sem_3/orel/10 HTTP/1.1" 301 0
+INFO 2023-09-05 10:33:31,540 basehttp 14972 21724 "GET /sem_3/orel/10/ HTTP/1.1" 200 318
+INFO 2023-09-05 10:33:40,899 basehttp 14972 21724 "GET /sem_3/cube/10/ HTTP/1.1" 200 230
+INFO 2023-09-05 10:33:47,659 basehttp 14972 21724 "GET /sem_3/random/10/ HTTP/1.1" 200 258
+INFO 2023-09-05 14:55:31,491 autoreload 13320 10128 Watching for file changes with StatReloader
+INFO 2023-09-05 14:55:32,841 basehttp 13320 5804 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-05 14:55:36,025 log 13320 5804 Not Found: /docs
+WARNING 2023-09-05 14:55:36,026 basehttp 13320 5804 "GET /docs HTTP/1.1" 404 2583
+WARNING 2023-09-05 14:55:41,697 log 13320 5804 Not Found: /sem_3/
+WARNING 2023-09-05 14:55:41,698 basehttp 13320 5804 "GET /sem_3/ HTTP/1.1" 404 3786
+WARNING 2023-09-05 14:55:41,948 log 13320 5804 Not Found: /sem_3/
+WARNING 2023-09-05 14:55:41,948 basehttp 13320 5804 "GET /sem_3/ HTTP/1.1" 404 3786
+INFO 2023-09-05 14:55:50,904 basehttp 13320 5804 "GET /sem_3/post/3 HTTP/1.1" 301 0
+ERROR 2023-09-05 14:55:50,969 log 13320 12156 Internal Server Error: /sem_3/post/3/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 63, in get_context_data
+    author = Author.objects.get(pk=self.kwargs['id_author'])
+                                   ~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'id_author'
+ERROR 2023-09-05 14:55:50,971 basehttp 13320 12156 "GET /sem_3/post/3/ HTTP/1.1" 500 80669
+INFO 2023-09-05 14:56:30,320 autoreload 13320 10128 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\urls.py changed, reloading.
+INFO 2023-09-05 14:56:30,836 autoreload 1480 18948 Watching for file changes with StatReloader
+ERROR 2023-09-05 14:56:31,152 log 1480 18628 Internal Server Error: /sem_3/post/3/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: seminar_3_app/post.html
+ERROR 2023-09-05 14:56:31,154 basehttp 1480 18628 "GET /sem_3/post/3/ HTTP/1.1" 500 81484
+WARNING 2023-09-05 14:56:38,981 log 1480 18628 Not Found: /sem_3/author
+WARNING 2023-09-05 14:56:38,981 basehttp 1480 18628 "GET /sem_3/author HTTP/1.1" 404 3804
+INFO 2023-09-05 14:56:41,909 basehttp 1480 18628 "GET /sem_3/author/1 HTTP/1.1" 301 0
+ERROR 2023-09-05 14:56:42,002 log 1480 4820 Internal Server Error: /sem_3/author/1/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' 'post' id.post">{{ post.title' from 'url 'post' id.post">{{ post.title'
+ERROR 2023-09-05 14:56:42,007 basehttp 1480 4820 "GET /sem_3/author/1/ HTTP/1.1" 500 204131
+ERROR 2023-09-05 14:57:01,063 log 1480 4820 Internal Server Error: /sem_3/author/1/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\defaulttags.py", line 953, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 484, in parse
+    raise self.error(token, e)
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 482, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 600, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 703, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: ' 'post' post.id' from 'url 'post' post.id'
+ERROR 2023-09-05 14:57:01,067 basehttp 1480 4820 "GET /sem_3/author/1/ HTTP/1.1" 500 205567
+INFO 2023-09-05 14:57:31,903 basehttp 1480 4820 "GET /sem_3/author/1/ HTTP/1.1" 200 2539
+INFO 2023-09-05 14:59:16,749 basehttp 1480 4820 "GET /sem_3/author/1/ HTTP/1.1" 200 2754
+INFO 2023-09-05 14:59:32,238 basehttp 1480 4820 "GET /sem_3/author/1/ HTTP/1.1" 200 2989
+INFO 2023-09-05 15:00:13,200 basehttp 1480 4820 "GET /sem_3/author/1/ HTTP/1.1" 200 2989
+INFO 2023-09-05 15:00:13,749 basehttp 1480 4820 "GET /sem_3/author/1/ HTTP/1.1" 200 2989
+INFO 2023-09-05 15:00:14,362 basehttp 1480 4820 "GET /sem_3/author/1/ HTTP/1.1" 200 4519
+ERROR 2023-09-05 15:00:54,643 log 1480 4820 Internal Server Error: /sem_3/post/2/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: seminar_3_app/post.html
+ERROR 2023-09-05 15:00:54,645 basehttp 1480 4820 "GET /sem_3/post/2/ HTTP/1.1" 500 81513
+INFO 2023-09-05 15:02:11,256 basehttp 1480 4820 "GET /sem_3/post/2/ HTTP/1.1" 200 143
+INFO 2023-09-05 15:02:12,833 basehttp 1480 4820 "GET /sem_3/post/2/ HTTP/1.1" 200 143
+INFO 2023-09-05 15:02:40,330 basehttp 1480 4820 "GET /sem_3/post/2/ HTTP/1.1" 200 143
+INFO 2023-09-05 15:02:43,403 basehttp 1480 4820 "GET /sem_3/post/5 HTTP/1.1" 301 0
+INFO 2023-09-05 15:02:43,409 basehttp 1480 19000 "GET /sem_3/post/5/ HTTP/1.1" 200 143
+INFO 2023-09-05 15:02:55,336 basehttp 1480 19000 "GET /sem_3/post/5/ HTTP/1.1" 200 143
+INFO 2023-09-05 15:02:55,951 basehttp 1480 19000 "GET /sem_3/post/5/ HTTP/1.1" 200 144
+INFO 2023-09-05 15:02:56,240 basehttp 1480 19000 "GET /sem_3/post/5/ HTTP/1.1" 200 144
+INFO 2023-09-05 15:03:29,727 basehttp 1480 19000 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:03:30,392 basehttp 1480 19000 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:03:30,986 basehttp 1480 19000 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:03:31,214 basehttp 1480 19000 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:16,189 autoreload 1480 18948 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py changed, reloading.
+INFO 2023-09-05 15:04:16,643 autoreload 10204 21924 Watching for file changes with StatReloader
+INFO 2023-09-05 15:04:17,669 basehttp 10204 18896 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:18,270 basehttp 10204 18896 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:18,924 basehttp 10204 18896 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:19,378 basehttp 10204 18896 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:19,542 basehttp 10204 18896 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:19,706 basehttp 10204 18896 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:19,884 basehttp 10204 18896 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:20,070 basehttp 10204 18896 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:20,217 basehttp 10204 18896 "GET /sem_3/post/5/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:24,094 autoreload 19756 20064 Watching for file changes with StatReloader
+INFO 2023-09-05 15:04:27,627 basehttp 19756 21384 "GET /sem_3/post/6 HTTP/1.1" 301 0
+INFO 2023-09-05 15:04:27,636 basehttp 19756 1788 "GET /sem_3/post/6/ HTTP/1.1" 200 145
+INFO 2023-09-05 15:04:33,730 autoreload 19756 20064 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py changed, reloading.
+INFO 2023-09-05 15:04:34,196 autoreload 2960 2488 Watching for file changes with StatReloader
+ERROR 2023-09-05 15:04:35,482 log 2960 14092 Internal Server Error: /sem_3/post/6/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 74, in get_context_data
+    post = Post.objects.get(pk=self.kwargs['id_post']).all()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Post' object has no attribute 'all'
+ERROR 2023-09-05 15:04:35,484 basehttp 2960 14092 "GET /sem_3/post/6/ HTTP/1.1" 500 80339
+ERROR 2023-09-05 15:04:48,848 log 2960 14092 Internal Server Error: /sem_3/post/6/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 226, in get
+    context = self.get_context_data(**kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 74, in get_context_data
+    post = Post.objects.get(pk=self.kwargs['id_post'])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Post' object has no attribute 'all'
+ERROR 2023-09-05 15:04:48,849 basehttp 2960 14092 "GET /sem_3/post/6/ HTTP/1.1" 500 80327
+INFO 2023-09-05 15:04:48,971 autoreload 2960 2488 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py changed, reloading.
+INFO 2023-09-05 15:04:49,522 autoreload 22308 7368 Watching for file changes with StatReloader
+INFO 2023-09-05 15:04:49,662 basehttp 22308 5456 "GET /sem_3/post/6/ HTTP/1.1" 200 156
+INFO 2023-09-05 15:04:56,190 basehttp 22308 5456 "GET /sem_3/post/6/ HTTP/1.1" 200 156
+INFO 2023-09-05 15:04:59,989 basehttp 22308 5456 "GET /sem_3/post/5/ HTTP/1.1" 200 156
+INFO 2023-09-05 15:05:12,435 basehttp 22308 5456 "GET /sem_3/post/5/ HTTP/1.1" 200 182
+INFO 2023-09-05 15:05:18,958 basehttp 22308 5456 "GET /sem_3/post/5/ HTTP/1.1" 200 178
+INFO 2023-09-05 15:05:19,498 basehttp 22308 5456 "GET /sem_3/post/5/ HTTP/1.1" 200 178
+INFO 2023-09-05 15:05:25,194 basehttp 22308 5456 "GET /sem_3/author/1/ HTTP/1.1" 200 4519
+INFO 2023-09-05 15:05:27,655 basehttp 22308 5456 "GET /sem_3/post/901/ HTTP/1.1" 200 178
+INFO 2023-09-05 15:05:30,656 basehttp 22308 5456 "GET /sem_3/post/1084/ HTTP/1.1" 200 178
+INFO 2023-09-05 15:05:35,101 basehttp 22308 5456 "GET /sem_3/post/273/ HTTP/1.1" 200 178
+INFO 2023-09-05 15:05:37,478 basehttp 22308 5456 "GET /sem_3/post/92/ HTTP/1.1" 200 178
+INFO 2023-09-05 15:29:21,092 autoreload 1436 16296 Watching for file changes with StatReloader
+INFO 2023-09-05 15:29:22,256 basehttp 1436 6952 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-05 15:29:27,163 log 1436 6952 Not Found: /sem_3/
+WARNING 2023-09-05 15:29:27,164 basehttp 1436 6952 "GET /sem_3/ HTTP/1.1" 404 3786
+ERROR 2023-09-05 15:29:30,284 log 1436 6952 Internal Server Error: /sem_3/author/1/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\defaulttags.py", line 321, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 1064, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 715, in resolve
+    obj = self.var.resolve(context)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 847, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\template\base.py", line 914, in _resolve_lookup
+    current = current()
+              ^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py", line 33, in get_absolute_url
+    return reverse('post', kwargs={'pk': self.pk})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post' with keyword arguments '{'pk': 2}' not found. 1 pattern(s) tried: ['sem_3/post/(?P<id_post>[0-9]+)/\\Z']
+ERROR 2023-09-05 15:29:30,291 basehttp 1436 6952 "GET /sem_3/author/1/ HTTP/1.1" 500 231277
+INFO 2023-09-05 15:29:58,312 autoreload 1436 16296 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-05 15:29:58,778 autoreload 20532 19820 Watching for file changes with StatReloader
+INFO 2023-09-05 15:30:00,070 basehttp 20532 22404 "GET /sem_3/author/1/ HTTP/1.1" 200 7094
+ERROR 2023-09-05 15:30:01,294 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:30:01,296 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85548
+ERROR 2023-09-05 15:31:35,869 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:35,871 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:36,482 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:36,484 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:37,076 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:37,077 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:37,233 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:37,234 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:37,384 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:37,385 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:37,528 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:37,530 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:38,000 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:38,002 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:38,157 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:38,158 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:38,322 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:38,323 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:38,512 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:38,513 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:38,680 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:38,681 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:38,871 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:38,873 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:39,074 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:39,076 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:39,443 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:39,445 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:39,601 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:39,603 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+ERROR 2023-09-05 15:31:39,759 log 20532 22404 Internal Server Error: /sem_3/post/92/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 108, in get
+    self.object = self.get_object()
+                  ^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py", line 75, in get_object
+    obj = super().get_object(queryset=queryset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\detail.py", line 46, in get_object
+    raise AttributeError(
+AttributeError: Generic detail view PostViews must be called with either an object pk or a slug in the URLconf.
+ERROR 2023-09-05 15:31:39,760 basehttp 20532 22404 "GET /sem_3/post/92/ HTTP/1.1" 500 85685
+INFO 2023-09-05 15:32:12,298 autoreload 20532 19820 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\urls.py changed, reloading.
+INFO 2023-09-05 15:32:12,773 autoreload 9036 2352 Watching for file changes with StatReloader
+INFO 2023-09-05 15:32:15,234 basehttp 9036 12232 "GET /sem_3/post/92/ HTTP/1.1" 200 176
+INFO 2023-09-05 15:32:22,968 basehttp 9036 12232 "GET /sem_3/post/1 HTTP/1.1" 301 0
+INFO 2023-09-05 15:32:22,979 basehttp 9036 21496 "GET /sem_3/post/1/ HTTP/1.1" 200 176
+INFO 2023-09-05 15:32:36,606 basehttp 9036 21496 "GET /sem_3/post/1/ HTTP/1.1" 200 176
+INFO 2023-09-05 15:32:37,004 basehttp 9036 21496 "GET /sem_3/post/1/ HTTP/1.1" 200 176
+INFO 2023-09-05 15:32:37,458 basehttp 9036 21496 "GET /sem_3/post/1/ HTTP/1.1" 200 176
+INFO 2023-09-05 15:32:37,936 basehttp 9036 21496 "GET /sem_3/post/1/ HTTP/1.1" 200 176
+INFO 2023-09-05 15:32:38,696 basehttp 9036 21496 "GET /sem_3/post/1/ HTTP/1.1" 200 176

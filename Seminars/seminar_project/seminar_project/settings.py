@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'seminar_app',
     'seminar_1_app_2',
     'seminar_2_app',
+    'seminar_3_app',
 
 ]
 
@@ -59,7 +60,9 @@ ROOT_URLCONF = 'seminar_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
