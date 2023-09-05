@@ -3,7 +3,7 @@ from random import choice, randint
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.views.generic import TemplateView, View, DetailView
-from .models import Post, Author
+from .models import Post, Author, Comment
 
 
 # Create your views here.
@@ -76,3 +76,10 @@ class PostViews(DetailView):
         obj.views += 1
         obj.save()
         return obj
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        post = Post.objects.get(pk=self.kwargs['pk'])
+        comments = Comment.objects.filter(post=post).all().order_by('-publish_date')
+        context['comments'] = comments
+        return context
