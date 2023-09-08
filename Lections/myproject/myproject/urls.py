@@ -23,4 +23,5 @@ urlpatterns = [
     path('prefix/', include('myapp.urls')),
     path('lec3/', include('myapp3.urls')),
     path('', index),
+    path('lec4/', include('myapp4.urls')),
 ]
