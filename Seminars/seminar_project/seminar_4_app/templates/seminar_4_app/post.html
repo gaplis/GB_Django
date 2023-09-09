@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+<h2>Заголовок: {{ post.title }}</h2>
+<p>Текст статьи: {{ post.post }}</p><br>
+<p>Автор поста: {{ post.author }}</p><br>
+<table>
+    {% for comment in comments %}
+    <tr>
+        <td><a href="{% url 'author' comment.author.id %}">Автор комментария: {{ comment.author }}</a></td>
+        <td>Комментарий: {{ comment.comment }}</td>
+        <td>Дата публикации: {{ comment.publish_date }}</td>
+        {% if not comment.publish_date == comment.change_date %}
+        <td>Дата изменения: {{ comment.change_date }}</td>
+        {% endif %}
+    </tr>
+    {% endfor %}
+</table>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Добавить комментарий">
+</form>
+{% endblock %}

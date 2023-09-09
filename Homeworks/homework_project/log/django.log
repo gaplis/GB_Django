@@ -647,3 +647,42 @@ INFO 2023-09-05 17:28:10,466 basehttp 21972 18088 "GET /hw3/client/month/1/ HTTP
 INFO 2023-09-05 17:28:17,838 basehttp 21972 18088 "GET /hw3/client/year/1/ HTTP/1.1" 200 590
 INFO 2023-09-05 17:29:23,985 basehttp 21972 18088 "GET /hw3/client/year/1/ HTTP/1.1" 200 528
 INFO 2023-09-05 17:29:46,027 basehttp 21972 18088 "GET /hw3/client/week/1/ HTTP/1.1" 200 418
+INFO 2023-09-09 20:34:22,566 autoreload 23380 8204 Watching for file changes with StatReloader
+INFO 2023-09-09 20:34:25,287 basehttp 23380 9392 "GET / HTTP/1.1" 200 208
+WARNING 2023-09-09 20:34:32,501 log 23380 9392 Not Found: /hw4
+WARNING 2023-09-09 20:34:32,502 basehttp 23380 9392 "GET /hw4 HTTP/1.1" 404 2631
+WARNING 2023-09-09 20:34:34,824 log 23380 9392 Not Found: /hw4/
+WARNING 2023-09-09 20:34:34,824 basehttp 23380 9392 "GET /hw4/ HTTP/1.1" 404 2719
+INFO 2023-09-09 20:34:48,323 basehttp 23380 9392 "GET /hw4/update_product/ HTTP/1.1" 200 1135
+INFO 2023-09-09 20:36:27,438 basehttp 23380 9392 "POST /hw4/update_product/ HTTP/1.1" 200 4314
+INFO 2023-09-09 20:41:12,667 autoreload 23380 8204 C:\Users\gapli\Downloads\GB_Django\Homeworks\homework_project\homework_2_app\models.py changed, reloading.
+INFO 2023-09-09 20:41:13,166 autoreload 24272 18272 Watching for file changes with StatReloader
+INFO 2023-09-09 23:40:46,033 autoreload 14984 17944 Watching for file changes with StatReloader
+INFO 2023-09-09 23:47:02,130 autoreload 9400 19156 Watching for file changes with StatReloader
+INFO 2023-09-09 23:47:04,128 basehttp 9400 23944 "GET / HTTP/1.1" 200 208
+INFO 2023-09-09 23:47:13,828 basehttp 9400 23944 "GET /hw3/client/1 HTTP/1.1" 301 0
+INFO 2023-09-09 23:47:13,846 basehttp 9400 10496 "GET /hw3/client/1/ HTTP/1.1" 200 558
+WARNING 2023-09-09 23:47:16,293 log 9400 10496 Not Found: /hw4/
+WARNING 2023-09-09 23:47:16,294 basehttp 9400 10496 "GET /hw4/ HTTP/1.1" 404 2920
+INFO 2023-09-09 23:47:21,142 basehttp 9400 10496 "GET /hw4/upload_image_product/ HTTP/1.1" 200 665
+INFO 2023-09-09 23:47:41,532 autoreload 9400 19156 C:\Users\gapli\Downloads\GB_Django\Homeworks\homework_project\homework_4_app\views.py changed, reloading.
+INFO 2023-09-09 23:47:41,977 autoreload 21396 13972 Watching for file changes with StatReloader
+INFO 2023-09-09 23:47:42,794 basehttp 21396 19360 "GET /hw4/upload_image_product/ HTTP/1.1" 200 686
+INFO 2023-09-09 23:47:48,621 basehttp 21396 19360 "POST /hw4/upload_image_product/ HTTP/1.1" 200 733
+INFO 2023-09-09 23:48:02,408 basehttp 21396 19360 "POST /hw4/upload_image_product/ HTTP/1.1" 200 733
+INFO 2023-09-09 23:49:11,442 basehttp 21396 19360 "POST /hw4/upload_image_product/ HTTP/1.1" 200 733
+INFO 2023-09-09 23:50:43,055 autoreload 21396 13972 C:\Users\gapli\Downloads\GB_Django\Homeworks\homework_project\homework_4_app\views.py changed, reloading.
+INFO 2023-09-09 23:50:43,470 autoreload 17536 19416 Watching for file changes with StatReloader
+INFO 2023-09-09 23:50:45,871 basehttp 17536 16632 "POST /hw4/upload_image_product/ HTTP/1.1" 200 733
+INFO 2023-09-09 23:50:48,814 basehttp 17536 16632 "GET /hw4/upload_image_product/ HTTP/1.1" 200 686
+INFO 2023-09-09 23:50:56,141 basehttp 17536 16632 "GET /hw4/upload_image_product/ HTTP/1.1" 200 686
+INFO 2023-09-09 23:51:03,838 basehttp 17536 16632 "POST /hw4/upload_image_product/ HTTP/1.1" 200 733
+INFO 2023-09-09 23:51:57,414 autoreload 17536 19416 C:\Users\gapli\Downloads\GB_Django\Homeworks\homework_project\homework_4_app\views.py changed, reloading.
+INFO 2023-09-09 23:51:57,840 autoreload 20964 21936 Watching for file changes with StatReloader
+INFO 2023-09-09 23:52:02,144 basehttp 20964 18088 "POST /hw4/upload_image_product/ HTTP/1.1" 200 733
+INFO 2023-09-09 23:54:02,815 autoreload 20964 21936 C:\Users\gapli\Downloads\GB_Django\Homeworks\homework_project\homework_4_app\views.py changed, reloading.
+INFO 2023-09-09 23:54:03,245 autoreload 9600 18588 Watching for file changes with StatReloader
+INFO 2023-09-09 23:54:05,569 basehttp 9600 25308 "POST /hw4/upload_image_product/ HTTP/1.1" 200 755
+INFO 2023-09-09 23:54:12,367 basehttp 9600 25308 "POST /hw4/upload_image_product/ HTTP/1.1" 200 722
+INFO 2023-09-09 23:54:54,966 autoreload 9600 18588 C:\Users\gapli\Downloads\GB_Django\Homeworks\homework_project\homework_4_app\views.py changed, reloading.
+INFO 2023-09-09 23:54:55,378 autoreload 21072 14272 Watching for file changes with StatReloader

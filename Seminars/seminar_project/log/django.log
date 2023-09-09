@@ -1797,3 +1797,353 @@ INFO 2023-09-09 17:17:47,207 basehttp 23956 6992 "POST /sem_4/add_post/ HTTP/1.1
 INFO 2023-09-09 17:17:47,240 basehttp 23956 6992 "GET /sem_3/post/1351/ HTTP/1.1" 200 365
 INFO 2023-09-09 17:18:19,722 basehttp 23956 6992 "GET /sem_3/post/1351/ HTTP/1.1" 200 365
 INFO 2023-09-09 17:18:56,591 basehttp 23956 6992 "GET /sem_3/post/1351/ HTTP/1.1" 200 365
+INFO 2023-09-09 18:31:52,377 basehttp 23956 7732 "GET / HTTP/1.1" 200 13
+INFO 2023-09-09 18:32:00,963 basehttp 23956 7732 "GET /sem_3/post/1 HTTP/1.1" 301 0
+INFO 2023-09-09 18:32:00,983 basehttp 23956 23104 "GET /sem_3/post/1/ HTTP/1.1" 200 3070
+INFO 2023-09-09 18:33:17,689 basehttp 23956 23104 "GET /sem_3/post/1/ HTTP/1.1" 200 3575
+INFO 2023-09-09 18:33:50,885 basehttp 23956 23104 "GET /sem_3/post/1/ HTTP/1.1" 200 3571
+INFO 2023-09-09 18:34:38,466 basehttp 23956 23104 "GET /sem_3/post/1/ HTTP/1.1" 200 3481
+INFO 2023-09-09 18:36:28,908 basehttp 23956 23104 "GET /sem_3/post/1/ HTTP/1.1" 200 3482
+INFO 2023-09-09 18:36:32,687 basehttp 23956 23104 "GET /sem_3/author/6/ HTTP/1.1" 200 7100
+INFO 2023-09-09 18:36:55,255 basehttp 23956 23104 "GET /sem_3/author/6/ HTTP/1.1" 200 7100
+INFO 2023-09-09 18:44:16,902 autoreload 24996 18100 Watching for file changes with StatReloader
+INFO 2023-09-09 18:44:18,241 basehttp 24996 14032 "GET /sem_3/post/1/ HTTP/1.1" 200 3482
+INFO 2023-09-09 18:44:19,485 basehttp 24996 14032 "GET /sem_3/post/1/ HTTP/1.1" 200 3482
+INFO 2023-09-09 18:44:24,912 basehttp 24996 14032 "GET /sem_4/post/1/ HTTP/1.1" 200 2954
+INFO 2023-09-09 18:44:27,188 basehttp 24996 14032 "GET /sem_4/post/1/ HTTP/1.1" 200 2954
+INFO 2023-09-09 18:44:37,600 basehttp 24996 14032 "GET /sem_4/post/2/ HTTP/1.1" 200 243
+INFO 2023-09-09 18:44:40,896 basehttp 24996 14032 "GET /sem_4/post/1/ HTTP/1.1" 200 2954
+INFO 2023-09-09 18:45:08,801 basehttp 24996 14032 "GET /sem_3/author/6/ HTTP/1.1" 200 7100
+INFO 2023-09-09 18:45:09,622 basehttp 24996 14032 "GET /sem_4/post/118/ HTTP/1.1" 200 243
+INFO 2023-09-09 18:45:11,977 basehttp 24996 14032 "GET /sem_3/author/6/ HTTP/1.1" 200 7100
+INFO 2023-09-09 18:46:14,720 basehttp 24996 14032 "GET /sem_3/post/1/ HTTP/1.1" 200 3482
+INFO 2023-09-09 18:46:17,799 basehttp 24996 14032 "GET /sem_4/post/1/ HTTP/1.1" 200 2954
+INFO 2023-09-09 18:47:00,802 basehttp 24996 14032 "GET /sem_4/post/1/ HTTP/1.1" 200 2954
+INFO 2023-09-09 18:47:00,844 autoreload 24996 18100 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\views.py changed, reloading.
+INFO 2023-09-09 18:47:01,339 autoreload 17752 18772 Watching for file changes with StatReloader
+INFO 2023-09-09 18:47:04,057 basehttp 17752 22644 "GET /sem_4/post/1/ HTTP/1.1" 200 2954
+INFO 2023-09-09 18:47:04,569 basehttp 17752 22644 "GET /sem_4/post/1/ HTTP/1.1" 200 2954
+INFO 2023-09-09 18:48:04,328 basehttp 17752 22644 "GET /sem_4/post/1/ HTTP/1.1" 200 81485
+ERROR 2023-09-09 18:48:24,407 log 17752 22644 Internal Server Error: /sem_4/post/1/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Comment' object has no attribute 'get_absolute_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 127, in get_success_url
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+ERROR 2023-09-09 18:48:24,409 basehttp 17752 22644 "POST /sem_4/post/1/ HTTP/1.1" 500 99490
+INFO 2023-09-09 18:49:22,947 autoreload 17752 18772 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-09 18:49:23,473 autoreload 5660 17776 Watching for file changes with StatReloader
+ERROR 2023-09-09 18:49:26,861 log 5660 24368 Internal Server Error: /sem_4/post/1/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Comment' object has no attribute 'get_absolute_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 127, in get_success_url
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+ERROR 2023-09-09 18:49:26,862 basehttp 5660 24368 "POST /sem_4/post/1/ HTTP/1.1" 500 99490
+INFO 2023-09-09 18:49:46,452 autoreload 5660 17776 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-09 18:49:46,955 autoreload 5476 19016 Watching for file changes with StatReloader
+INFO 2023-09-09 18:50:09,713 autoreload 5476 19016 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-09 18:50:10,179 autoreload 22816 21476 Watching for file changes with StatReloader
+INFO 2023-09-09 18:50:10,489 basehttp 22816 21864 "POST /sem_4/post/1/ HTTP/1.1" 302 0
+INFO 2023-09-09 18:50:10,959 basehttp 22816 21864 "GET /sem_4/post/123/ HTTP/1.1" 200 78774
+INFO 2023-09-09 18:50:15,372 basehttp 22816 21864 "GET /sem_4/post/123/ HTTP/1.1" 200 78774
+INFO 2023-09-09 18:50:16,304 basehttp 22816 21864 "GET /sem_4/post/1/ HTTP/1.1" 200 82257
+INFO 2023-09-09 18:50:18,216 basehttp 22816 21864 "GET /sem_4/post/1/ HTTP/1.1" 200 82257
+INFO 2023-09-09 18:50:25,251 basehttp 22816 21864 "POST /sem_4/post/1/ HTTP/1.1" 302 0
+INFO 2023-09-09 18:50:25,732 basehttp 22816 21864 "GET /sem_4/post/124/ HTTP/1.1" 200 78774
+INFO 2023-09-09 18:50:46,807 basehttp 22816 21864 - Broken pipe from ('127.0.0.1', 56086)
+INFO 2023-09-09 18:50:47,271 basehttp 22816 15700 "GET /sem_4/post/1/ HTTP/1.1" 200 82500
+INFO 2023-09-09 18:51:37,769 autoreload 9180 23648 Watching for file changes with StatReloader
+INFO 2023-09-09 18:51:38,612 basehttp 9180 13720 "GET / HTTP/1.1" 200 13
+INFO 2023-09-09 18:51:46,712 basehttp 9180 13720 "GET /sem_4/post/1/ HTTP/1.1" 200 82499
+INFO 2023-09-09 18:53:37,084 autoreload 9180 23648 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_4_app\views.py changed, reloading.
+INFO 2023-09-09 18:53:37,523 autoreload 22684 23928 Watching for file changes with StatReloader
+INFO 2023-09-09 18:53:38,976 basehttp 22684 19136 "GET /sem_4/post/1/ HTTP/1.1" 200 83027
+INFO 2023-09-09 18:53:52,181 basehttp 22684 19136 "POST /sem_4/post/1/ HTTP/1.1" 302 0
+INFO 2023-09-09 18:53:52,662 basehttp 22684 19136 "GET /sem_4/post/125/ HTTP/1.1" 200 78790
+INFO 2023-09-09 18:54:51,698 autoreload 22684 23928 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-09 18:54:52,201 autoreload 17828 2512 Watching for file changes with StatReloader
+ERROR 2023-09-09 18:54:52,800 log 17828 24628 Internal Server Error: /sem_4/post/1/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py", line 53, in get_absolute_url
+    return reverse('post', kwargs={'pk': Post.pk})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post' with keyword arguments '{'pk': <property object at 0x0000023838854B80>}' not found. 2 pattern(s) tried: ['sem_4/post/(?P<pk>[0-9]+)/\\Z', 'sem_3/post/(?P<pk>[0-9]+)/\\Z']
+ERROR 2023-09-09 18:54:52,803 basehttp 17828 24628 "POST /sem_4/post/1/ HTTP/1.1" 500 113072
+INFO 2023-09-09 18:57:23,701 autoreload 17828 2512 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-09 18:57:24,122 autoreload 25340 4304 Watching for file changes with StatReloader
+INFO 2023-09-09 18:59:13,661 autoreload 19732 10772 Watching for file changes with StatReloader
+INFO 2023-09-09 18:59:13,809 basehttp 19732 20212 "GET / HTTP/1.1" 200 13
+INFO 2023-09-09 18:59:24,702 basehttp 19732 20212 "GET /sem_4/post/1/ HTTP/1.1" 200 83542
+ERROR 2023-09-09 18:59:39,519 log 19732 20212 Internal Server Error: /sem_4/post/1/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Comment' object has no attribute 'get_absolute_url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 127, in get_success_url
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: No URL to redirect to.  Either provide a url or define a get_absolute_url method on the Model.
+ERROR 2023-09-09 18:59:39,521 basehttp 19732 20212 "POST /sem_4/post/1/ HTTP/1.1" 500 99470
+INFO 2023-09-09 19:00:04,942 basehttp 19732 20212 "GET /sem_4/post/1/ HTTP/1.1" 200 83780
+INFO 2023-09-09 19:00:31,952 basehttp 19732 20212 "GET /sem_4/post/1/ HTTP/1.1" 200 83780
+INFO 2023-09-09 19:00:33,647 basehttp 19732 20212 "GET /sem_4/post/1/ HTTP/1.1" 200 84360
+INFO 2023-09-09 19:00:36,578 basehttp 19732 20212 "GET /sem_4/post/1/ HTTP/1.1" 200 84360
+INFO 2023-09-09 19:00:56,117 basehttp 19732 20212 "GET /sem_4/post/1/ HTTP/1.1" 200 84360
+INFO 2023-09-09 19:00:57,404 basehttp 19732 20212 "GET /sem_4/post/1/ HTTP/1.1" 200 83751
+INFO 2023-09-09 19:01:39,103 autoreload 19732 10772 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-09 19:01:39,606 autoreload 19176 21356 Watching for file changes with StatReloader
+ERROR 2023-09-09 19:01:44,367 log 19176 23952 Internal Server Error: /sem_4/post/1/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py", line 53, in get_absolute_url
+    return reverse('post', kwargs={'pk': Post.pk})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post' with keyword arguments '{'pk': <property object at 0x000002D1D2424B30>}' not found. 2 pattern(s) tried: ['sem_4/post/(?P<pk>[0-9]+)/\\Z', 'sem_3/post/(?P<pk>[0-9]+)/\\Z']
+ERROR 2023-09-09 19:01:44,370 basehttp 19176 23952 "POST /sem_4/post/1/ HTTP/1.1" 500 113062
+ERROR 2023-09-09 19:04:09,502 log 19176 23952 Internal Server Error: /sem_4/post/1/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py", line 53, in get_absolute_url
+    return reverse('post', kwargs={'pk': Post.pk})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\urls\resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post' with keyword arguments '{'pk': <property object at 0x000002D1D2424B30>}' not found. 2 pattern(s) tried: ['sem_4/post/(?P<pk>[0-9]+)/\\Z', 'sem_3/post/(?P<pk>[0-9]+)/\\Z']
+ERROR 2023-09-09 19:04:09,504 basehttp 19176 23952 "POST /sem_4/post/1/ HTTP/1.1" 500 113062
+INFO 2023-09-09 19:04:11,608 basehttp 19176 23952 "GET /sem_4/post/1/ HTTP/1.1" 200 84225
+INFO 2023-09-09 19:04:22,940 autoreload 19176 21356 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-09 19:04:23,402 autoreload 20936 2216 Watching for file changes with StatReloader
+ERROR 2023-09-09 19:04:26,003 log 20936 11492 Internal Server Error: /sem_4/post/1/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py", line 53, in get_absolute_url
+    return reverse('post', kwargs={'pk': post.pk})
+                                         ^^^^
+NameError: name 'post' is not defined
+ERROR 2023-09-09 19:04:26,006 basehttp 20936 11492 "POST /sem_4/post/1/ HTTP/1.1" 500 98435
+INFO 2023-09-09 19:04:47,321 autoreload 20936 2216 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-09 19:04:47,799 autoreload 22664 22932 Watching for file changes with StatReloader
+INFO 2023-09-09 19:04:48,586 basehttp 22664 13692 "POST /sem_4/post/1/ HTTP/1.1" 302 0
+INFO 2023-09-09 19:04:49,052 basehttp 22664 13692 "GET /sem_4/post/11/ HTTP/1.1" 200 79501
+INFO 2023-09-09 19:05:06,196 basehttp 22664 13692 - Broken pipe from ('127.0.0.1', 56479)
+INFO 2023-09-09 19:05:06,652 basehttp 22664 24816 "GET /sem_4/post/1/ HTTP/1.1" 200 84223
+INFO 2023-09-09 19:05:13,644 basehttp 22664 24816 "POST /sem_4/post/1/ HTTP/1.1" 302 0
+INFO 2023-09-09 19:05:14,141 basehttp 22664 24816 "GET /sem_4/post/1/ HTTP/1.1" 200 84458
+INFO 2023-09-09 19:06:34,326 autoreload 4568 18300 Watching for file changes with StatReloader
+INFO 2023-09-09 19:06:36,070 basehttp 4568 3928 "GET / HTTP/1.1" 200 13
+INFO 2023-09-09 19:06:42,628 basehttp 4568 3928 "GET /sem_4/post/1/ HTTP/1.1" 200 84458
+INFO 2023-09-09 19:06:43,935 basehttp 4568 3928 "GET /sem_4/post/1 HTTP/1.1" 301 0
+INFO 2023-09-09 19:06:44,445 basehttp 4568 23728 "GET /sem_4/post/1/ HTTP/1.1" 200 84458
+INFO 2023-09-09 19:07:19,196 basehttp 4568 23728 "POST /sem_4/post/1/ HTTP/1.1" 302 0
+INFO 2023-09-09 19:07:19,659 basehttp 4568 23728 "GET /sem_4/post/1/ HTTP/1.1" 200 84752
+INFO 2023-09-09 19:07:27,949 basehttp 4568 23728 "GET /sem_3/author/3/ HTTP/1.1" 200 8559
+INFO 2023-09-09 19:07:29,771 basehttp 4568 23728 "GET /sem_4/post/13/ HTTP/1.1" 200 79030

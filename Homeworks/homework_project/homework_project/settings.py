@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'homework_1_app',
     'homework_2_app',
     'homework_3_app',
+    'homework_4_app',
 ]
 
 MIDDLEWARE = [
@@ -118,6 +119,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+
+MEDIA_URL = '/products/'
+MEDIA_ROOT = BASE_DIR / 'products'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

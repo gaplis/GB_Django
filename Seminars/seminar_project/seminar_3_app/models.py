@@ -49,5 +49,8 @@ class Comment(models.Model):
     publish_date = models.DateField(auto_now_add=True)
     change_date = models.DateField(default=date.today())
 
+    def get_absolute_url(self):
+        return reverse('post', kwargs={'pk': self.post.pk})
+
     def __str__(self):
         return f'{self.author}, {self.comment}, {self.post}'

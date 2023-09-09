@@ -1,7 +1,6 @@
 from random import choice, randint
 
 from django.shortcuts import render
-from django.http import HttpResponse
 from django.views.generic import TemplateView, View, DetailView
 from .models import Post, Author, Comment
 
