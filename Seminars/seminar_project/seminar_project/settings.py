@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'seminar_1_app_2',
     'seminar_2_app',
     'seminar_3_app',
+    'seminar_4_app',
 
 ]
 

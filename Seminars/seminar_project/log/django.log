@@ -1660,3 +1660,140 @@ INFO 2023-09-05 16:04:46,121 basehttp 19288 20648 "GET /sem_3/author/6/ HTTP/1.1
 INFO 2023-09-05 16:04:47,819 basehttp 19288 20648 "GET /sem_3/author/6/ HTTP/1.1" 200 7100
 INFO 2023-09-05 16:04:49,038 basehttp 19288 20648 "GET /sem_3/author/4/ HTTP/1.1" 200 7773
 INFO 2023-09-05 16:04:50,606 basehttp 19288 20648 "GET /sem_3/author/17/ HTTP/1.1" 200 7877
+INFO 2023-09-09 16:37:15,449 autoreload 15588 15796 Watching for file changes with StatReloader
+INFO 2023-09-09 16:37:16,821 basehttp 15588 24440 "GET / HTTP/1.1" 200 13
+INFO 2023-09-09 16:37:20,476 basehttp 15588 24440 "GET /sem_3/author/1/ HTTP/1.1" 200 7094
+WARNING 2023-09-09 16:37:24,036 log 15588 24440 Not Found: /sem_
+WARNING 2023-09-09 16:37:24,036 basehttp 15588 24440 "GET /sem_ HTTP/1.1" 404 2689
+WARNING 2023-09-09 16:37:26,800 log 15588 24440 Not Found: /sem_4
+WARNING 2023-09-09 16:37:26,800 basehttp 15588 24440 "GET /sem_4 HTTP/1.1" 404 2692
+WARNING 2023-09-09 16:37:29,420 log 15588 24440 Not Found: /sem_4/
+WARNING 2023-09-09 16:37:29,421 basehttp 15588 24440 "GET /sem_4/ HTTP/1.1" 404 2765
+INFO 2023-09-09 16:37:32,724 basehttp 15588 24440 "GET /sem_4/game HTTP/1.1" 301 0
+INFO 2023-09-09 16:37:32,783 basehttp 15588 2528 "GET /sem_4/game/ HTTP/1.1" 200 803
+INFO 2023-09-09 16:37:40,111 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:41,896 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:42,356 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:42,769 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:46,010 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:46,140 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:46,271 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:46,414 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:46,575 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:46,745 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:46,905 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:47,077 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1075
+INFO 2023-09-09 16:37:49,075 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1035
+INFO 2023-09-09 16:37:50,198 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1035
+INFO 2023-09-09 16:37:50,450 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1035
+INFO 2023-09-09 16:37:50,612 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1035
+INFO 2023-09-09 16:37:50,760 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1035
+INFO 2023-09-09 16:37:50,908 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1035
+INFO 2023-09-09 16:37:51,046 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1035
+INFO 2023-09-09 16:37:52,943 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1043
+INFO 2023-09-09 16:37:54,176 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1043
+INFO 2023-09-09 16:37:54,418 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1042
+INFO 2023-09-09 16:37:54,579 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1044
+INFO 2023-09-09 16:37:54,738 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1043
+INFO 2023-09-09 16:37:54,878 basehttp 15588 2528 "POST /sem_4/game/ HTTP/1.1" 200 1045
+INFO 2023-09-09 16:45:39,826 autoreload 15588 15796 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_4_app\views.py changed, reloading.
+INFO 2023-09-09 16:45:40,249 autoreload 20484 23576 Watching for file changes with StatReloader
+INFO 2023-09-09 16:45:41,437 autoreload 20484 23576 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_4_app\views.py changed, reloading.
+INFO 2023-09-09 16:45:41,892 autoreload 9512 6664 Watching for file changes with StatReloader
+INFO 2023-09-09 16:58:44,174 autoreload 19264 16752 Watching for file changes with StatReloader
+INFO 2023-09-09 16:58:45,197 basehttp 19264 22056 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-09 16:58:49,784 log 19264 22056 Not Found: /sem_4
+WARNING 2023-09-09 16:58:49,784 basehttp 19264 22056 "GET /sem_4 HTTP/1.1" 404 2692
+WARNING 2023-09-09 16:58:52,015 log 19264 22056 Not Found: /sem_4/
+WARNING 2023-09-09 16:58:52,015 basehttp 19264 22056 "GET /sem_4/ HTTP/1.1" 404 3147
+INFO 2023-09-09 16:58:58,412 basehttp 19264 22056 "GET /sem_4/add_author HTTP/1.1" 301 0
+INFO 2023-09-09 16:58:58,437 basehttp 19264 25232 "GET /sem_4/add_author/ HTTP/1.1" 200 1142
+INFO 2023-09-09 17:00:44,089 basehttp 19264 25232 "POST /sem_4/add_author/ HTTP/1.1" 200 1275
+INFO 2023-09-09 17:01:06,414 basehttp 19264 25232 "POST /sem_4/add_author/ HTTP/1.1" 200 1273
+INFO 2023-09-09 17:01:13,328 basehttp 19264 25232 "POST /sem_4/add_author/ HTTP/1.1" 200 1275
+INFO 2023-09-09 17:01:16,001 basehttp 19264 25232 "POST /sem_4/add_author/ HTTP/1.1" 200 1275
+INFO 2023-09-09 17:01:54,178 basehttp 19264 25232 "POST /sem_4/add_author/ HTTP/1.1" 200 1275
+INFO 2023-09-09 17:03:34,972 autoreload 19264 16752 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-09 17:03:35,440 autoreload 23536 5116 Watching for file changes with StatReloader
+INFO 2023-09-09 17:03:55,428 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1275
+INFO 2023-09-09 17:03:57,425 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1275
+WARNING 2023-09-09 17:04:01,912 log 23536 16064 Not Found: /sem_4/add_aut
+WARNING 2023-09-09 17:04:01,913 basehttp 23536 16064 "GET /sem_4/add_aut HTTP/1.1" 404 3168
+INFO 2023-09-09 17:04:05,268 basehttp 23536 16064 "GET /sem_4/add_author/ HTTP/1.1" 200 1142
+INFO 2023-09-09 17:04:29,003 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1274
+INFO 2023-09-09 17:04:38,607 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1274
+INFO 2023-09-09 17:04:39,212 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1274
+INFO 2023-09-09 17:04:39,388 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1274
+INFO 2023-09-09 17:04:39,557 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1274
+INFO 2023-09-09 17:04:39,720 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1274
+INFO 2023-09-09 17:04:39,878 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1274
+INFO 2023-09-09 17:04:40,050 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1274
+INFO 2023-09-09 17:04:40,269 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1274
+INFO 2023-09-09 17:04:46,135 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 200 1274
+INFO 2023-09-09 17:05:43,321 basehttp 23536 16064 "GET /sem_4/author_page/4 HTTP/1.1" 200 180
+WARNING 2023-09-09 17:05:47,265 log 23536 16064 Not Found: /sem_4/author_page/20
+WARNING 2023-09-09 17:05:47,266 basehttp 23536 16064 "GET /sem_4/author_page/20 HTTP/1.1" 404 3357
+WARNING 2023-09-09 17:05:50,256 log 23536 16064 Not Found: /sem_4/author_page/19
+WARNING 2023-09-09 17:05:50,257 basehttp 23536 16064 "GET /sem_4/author_page/19 HTTP/1.1" 404 3357
+INFO 2023-09-09 17:05:53,704 basehttp 23536 16064 "GET /sem_4/author_page/18 HTTP/1.1" 200 180
+INFO 2023-09-09 17:05:59,079 basehttp 23536 16064 "GET /sem_4/add_author/ HTTP/1.1" 200 1142
+ERROR 2023-09-09 17:06:28,061 log 23536 16064 Internal Server Error: /sem_4/add_author/
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'seminar_4_app'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 184, in post
+    return super().post(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 136, in form_valid
+    return super().form_valid(form)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 65, in form_valid
+    return HttpResponseRedirect(self.get_success_url())
+                                ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\views\generic\edit.py", line 125, in get_success_url
+    url = self.object.get_absolute_url()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py", line 19, in get_absolute_url
+    return reverse('seminar_4_app:author_page', kwargs={'pk': self.pk})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\gapli\Downloads\GB_Django\venv\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'seminar_4_app' is not a registered namespace
+ERROR 2023-09-09 17:06:28,064 basehttp 23536 16064 "POST /sem_4/add_author/ HTTP/1.1" 500 111778
+INFO 2023-09-09 17:08:59,926 autoreload 23536 5116 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-09 17:09:00,427 autoreload 7164 24160 Watching for file changes with StatReloader
+INFO 2023-09-09 17:09:01,358 basehttp 7164 16728 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-09 17:09:07,628 log 7164 16728 Not Found: /sem_3/
+WARNING 2023-09-09 17:09:07,628 basehttp 7164 16728 "GET /sem_3/ HTTP/1.1" 404 3887
+INFO 2023-09-09 17:09:09,424 basehttp 7164 16728 "GET /sem_4/add_author/ HTTP/1.1" 200 1142
+INFO 2023-09-09 17:09:19,181 basehttp 7164 16728 "POST /sem_4/add_author/ HTTP/1.1" 302 0
+INFO 2023-09-09 17:09:19,186 basehttp 7164 16728 "GET /sem_4/author_page/20 HTTP/1.1" 200 176
+INFO 2023-09-09 17:17:17,434 autoreload 23956 14972 Watching for file changes with StatReloader
+INFO 2023-09-09 17:17:18,516 basehttp 23956 23208 "GET / HTTP/1.1" 200 13
+INFO 2023-09-09 17:17:27,447 basehttp 23956 23208 "GET /sem_4/add_post HTTP/1.1" 301 0
+INFO 2023-09-09 17:17:27,465 basehttp 23956 6992 "GET /sem_4/add_post/ HTTP/1.1" 200 2787
+INFO 2023-09-09 17:17:47,207 basehttp 23956 6992 "POST /sem_4/add_post/ HTTP/1.1" 302 0
+INFO 2023-09-09 17:17:47,240 basehttp 23956 6992 "GET /sem_3/post/1351/ HTTP/1.1" 200 365
+INFO 2023-09-09 17:18:19,722 basehttp 23956 6992 "GET /sem_3/post/1351/ HTTP/1.1" 200 365
+INFO 2023-09-09 17:18:56,591 basehttp 23956 6992 "GET /sem_3/post/1351/ HTTP/1.1" 200 365

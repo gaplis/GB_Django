@@ -1,6 +1,7 @@
 from datetime import date
 
 from django.db import models
+from django.db.models import Manager
 from django.urls import reverse
 
 
@@ -11,6 +12,11 @@ class Author(models.Model):
     email = models.EmailField()
     bio = models.TextField(max_length=1000)
     bd = models.DateField()
+
+    objects = Manager()
+
+    def get_absolute_url(self):
+        return reverse('author_page', kwargs={'pk': self.pk})
 
     def __str__(self):
         return f'{self.first_name} {self.last_name}'
