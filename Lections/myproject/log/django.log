@@ -396,3 +396,249 @@ INFO 2023-09-08 15:24:22,065 basehttp 19644 15836 "POST /lec4/upload/ HTTP/1.1" 
 INFO 2023-09-08 15:24:34,762 autoreload 19644 22052 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myproject\settings.py changed, reloading.
 INFO 2023-09-08 15:24:35,258 autoreload 17912 7512 Watching for file changes with StatReloader
 INFO 2023-09-08 15:24:37,692 basehttp 17912 20544 "POST /lec4/upload/ HTTP/1.1" 200 634
+INFO 2023-09-10 01:02:40,806 autoreload 3220 6356 Watching for file changes with StatReloader
+INFO 2023-09-10 01:03:08,320 basehttp 3220 8148 "GET / HTTP/1.1" 200 308
+INFO 2023-09-10 01:03:12,639 basehttp 3220 8148 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-10 01:03:12,651 basehttp 3220 15280 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:03:12,715 basehttp 3220 15280 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-09-10 01:03:12,861 basehttp 3220 25400 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-10 01:03:12,867 basehttp 3220 15280 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-10 01:03:12,872 basehttp 3220 21564 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-10 01:03:12,873 basehttp 3220 9952 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-10 01:03:12,874 basehttp 3220 25400 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-10 01:03:12,874 basehttp 3220 17484 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-10 01:03:12,879 basehttp 3220 25216 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-09-10 01:03:14,600 basehttp 3220 25216 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4338
+INFO 2023-09-10 01:03:21,170 basehttp 3220 25216 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4338
+INFO 2023-09-10 01:04:33,865 autoreload 3220 6356 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myproject\settings.py changed, reloading.
+INFO 2023-09-10 01:04:34,375 autoreload 13372 348 Watching for file changes with StatReloader
+INFO 2023-09-10 01:05:15,139 basehttp 13372 13480 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4530
+INFO 2023-09-10 01:14:02,103 autoreload 23184 19208 Watching for file changes with StatReloader
+INFO 2023-09-10 01:14:09,597 basehttp 23184 20724 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4530
+INFO 2023-09-10 01:14:10,557 basehttp 23184 20724 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-10 01:14:18,451 basehttp 23184 20724 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4535
+INFO 2023-09-10 01:14:24,649 basehttp 23184 20724 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4535
+INFO 2023-09-10 01:14:28,568 basehttp 23184 20724 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4535
+INFO 2023-09-10 01:14:37,552 basehttp 23184 20724 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:14:37,574 basehttp 23184 20724 "GET /admin/ HTTP/1.1" 200 5853
+INFO 2023-09-10 01:14:37,632 basehttp 23184 20724 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-10 01:14:37,641 basehttp 23184 5116 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-10 01:14:37,641 basehttp 23184 20724 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-10 01:15:19,066 basehttp 23184 20724 "GET / HTTP/1.1" 200 308
+INFO 2023-09-10 01:20:23,321 basehttp 23184 9824 "GET /admin/auth/user/ HTTP/1.1" 200 11313
+INFO 2023-09-10 01:20:23,352 basehttp 23184 9824 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-10 01:20:23,365 basehttp 23184 4440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:20:23,366 basehttp 23184 10508 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-10 01:20:23,371 basehttp 23184 18692 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-10 01:20:23,371 basehttp 23184 1268 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-10 01:20:23,374 basehttp 23184 9824 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-10 01:20:23,383 basehttp 23184 10508 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-10 01:20:23,383 basehttp 23184 4440 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-10 01:20:23,402 basehttp 23184 25200 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-10 01:20:23,423 basehttp 23184 25200 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-10 01:20:23,431 basehttp 23184 1268 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-10 01:20:23,437 basehttp 23184 25200 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-10 01:20:23,451 basehttp 23184 25200 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-10 01:20:23,461 basehttp 23184 1268 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-10 01:20:23,461 basehttp 23184 4440 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-10 01:20:51,530 basehttp 23184 4440 "GET /admin/auth/user/add/ HTTP/1.1" 200 10989
+INFO 2023-09-10 01:20:51,558 basehttp 23184 1268 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:20:51,560 basehttp 23184 4440 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-10 01:20:51,564 basehttp 23184 25200 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-10 01:20:51,570 basehttp 23184 1268 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-10 01:20:51,573 basehttp 23184 4440 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-10 01:22:00,837 basehttp 23184 4440 "POST /admin/auth/user/add/ HTTP/1.1" 200 11465
+INFO 2023-09-10 01:22:00,871 basehttp 23184 4440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:22:31,052 basehttp 23184 4440 "POST /admin/auth/user/add/ HTTP/1.1" 200 11204
+INFO 2023-09-10 01:22:31,067 basehttp 23184 4440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:22:46,799 basehttp 23184 4440 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:22:46,852 basehttp 23184 4440 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23921
+INFO 2023-09-10 01:22:46,879 basehttp 23184 1268 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:22:46,889 basehttp 23184 10508 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-10 01:22:46,889 basehttp 23184 9824 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-10 01:22:46,890 basehttp 23184 4440 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-09-10 01:22:46,890 basehttp 23184 25200 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-09-10 01:22:46,934 basehttp 23184 9824 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-09-10 01:22:46,934 basehttp 23184 1268 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-09-10 01:22:46,935 basehttp 23184 4440 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-09-10 01:22:46,935 basehttp 23184 25200 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-09-10 01:22:46,935 basehttp 23184 10508 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-09-10 01:26:17,952 basehttp 23184 4440 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:26:17,976 basehttp 23184 4440 "GET /admin/auth/user/ HTTP/1.1" 200 11923
+INFO 2023-09-10 01:26:18,002 basehttp 23184 4440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:26:24,935 basehttp 23184 4440 "GET /admin/auth/group/ HTTP/1.1" 200 7642
+INFO 2023-09-10 01:26:24,961 basehttp 23184 4440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:26:34,972 basehttp 23184 4440 "GET /admin/auth/group/add/ HTTP/1.1" 200 13315
+INFO 2023-09-10 01:26:34,998 basehttp 23184 4440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:27:12,226 basehttp 23184 4440 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:27:12,240 basehttp 23184 4440 "GET /admin/auth/group/ HTTP/1.1" 200 9115
+INFO 2023-09-10 01:27:12,260 basehttp 23184 4440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:27:13,879 basehttp 23184 4440 "GET /admin/auth/user/ HTTP/1.1" 200 12009
+INFO 2023-09-10 01:27:13,897 basehttp 23184 4440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:27:16,190 basehttp 23184 4440 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 23700
+INFO 2023-09-10 01:27:16,206 basehttp 23184 4440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:27:26,028 basehttp 23184 4440 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:27:26,045 basehttp 23184 4440 "GET /admin/auth/user/ HTTP/1.1" 200 12229
+INFO 2023-09-10 01:27:26,071 basehttp 23184 4440 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:27:35,625 basehttp 23184 4440 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-10 01:27:36,800 basehttp 23184 4440 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:27:36,808 basehttp 23184 4440 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-10 01:27:42,682 basehttp 23184 4440 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:27:42,692 basehttp 23184 4440 "GET /admin/ HTTP/1.1" 200 4801
+INFO 2023-09-10 01:36:37,608 autoreload 23184 19208 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-10 01:36:38,286 autoreload 15536 10260 Watching for file changes with StatReloader
+INFO 2023-09-10 01:44:07,873 autoreload 11196 5152 Watching for file changes with StatReloader
+INFO 2023-09-10 01:44:11,770 basehttp 11196 8016 "GET /admin/ HTTP/1.1" 200 4801
+INFO 2023-09-10 01:44:14,235 basehttp 11196 8016 "GET /admin/ HTTP/1.1" 200 4801
+INFO 2023-09-10 01:44:17,560 basehttp 11196 8016 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-10 01:44:18,645 basehttp 11196 8016 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:44:18,660 basehttp 11196 8016 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-10 01:44:21,647 basehttp 11196 8016 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:44:21,660 basehttp 11196 8016 "GET /admin/ HTTP/1.1" 200 8205
+INFO 2023-09-10 01:44:21,714 basehttp 11196 8016 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-10 01:45:39,657 autoreload 11196 5152 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp3\admin.py changed, reloading.
+INFO 2023-09-10 01:45:40,210 autoreload 4036 4080 Watching for file changes with StatReloader
+INFO 2023-09-10 01:45:52,990 basehttp 4036 23944 "GET /admin/ HTTP/1.1" 200 9320
+INFO 2023-09-10 01:46:28,171 basehttp 4036 23944 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-10 01:46:29,103 basehttp 4036 23944 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:46:29,117 basehttp 4036 23944 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-10 01:46:31,639 basehttp 4036 23944 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:46:31,651 basehttp 4036 23944 "GET /admin/ HTTP/1.1" 200 5340
+INFO 2023-09-10 01:46:49,808 basehttp 4036 23944 "GET /admin/myapp3/post/ HTTP/1.1" 200 17274
+INFO 2023-09-10 01:46:58,828 basehttp 4036 23944 "GET /admin/myapp3/post/100/change/ HTTP/1.1" 200 10035
+INFO 2023-09-10 01:46:58,877 basehttp 4036 23944 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:47:40,492 basehttp 4036 23944 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-10 01:47:41,314 basehttp 4036 23944 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:47:41,321 basehttp 4036 23944 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-10 01:47:43,938 basehttp 4036 23944 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:47:43,950 basehttp 4036 23944 "GET /admin/ HTTP/1.1" 200 9320
+INFO 2023-09-10 01:47:46,994 basehttp 4036 23944 "GET /admin/myapp3/post/ HTTP/1.1" 200 31491
+INFO 2023-09-10 01:47:47,026 basehttp 4036 23944 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:47:49,864 basehttp 4036 23944 "GET /admin/myapp3/post/98/change/ HTTP/1.1" 200 13210
+INFO 2023-09-10 01:47:49,900 basehttp 4036 23944 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:47:49,939 basehttp 4036 1872 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-09-10 01:48:02,180 basehttp 4036 1872 "GET /admin/myapp5/category/ HTTP/1.1" 200 8981
+INFO 2023-09-10 01:48:02,224 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:48:04,538 basehttp 4036 1872 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 9822
+INFO 2023-09-10 01:48:04,567 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:48:16,828 basehttp 4036 1872 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:48:16,840 basehttp 4036 1872 "GET /admin/myapp5/category/add/ HTTP/1.1" 200 10112
+INFO 2023-09-10 01:48:16,877 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:48:22,066 basehttp 4036 1872 "POST /admin/myapp5/category/add/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:48:22,080 basehttp 4036 1872 "GET /admin/myapp5/category/ HTTP/1.1" 200 10663
+INFO 2023-09-10 01:48:22,099 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:48:27,520 basehttp 4036 1872 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11676
+INFO 2023-09-10 01:48:27,560 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:48:42,278 basehttp 4036 1872 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:48:42,304 basehttp 4036 1872 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11957
+INFO 2023-09-10 01:48:42,322 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:48:48,086 basehttp 4036 1872 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:48:48,100 basehttp 4036 1872 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 11963
+INFO 2023-09-10 01:48:48,134 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:48:57,871 basehttp 4036 1872 "GET /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 4478
+INFO 2023-09-10 01:48:57,910 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:49:13,098 basehttp 4036 1872 "POST /admin/myapp5/category/add/?_to_field=id&_popup=1 HTTP/1.1" 200 403
+INFO 2023-09-10 01:49:13,125 basehttp 4036 1872 "GET /static/admin/js/popup_response.js HTTP/1.1" 200 551
+INFO 2023-09-10 01:49:22,981 basehttp 4036 1872 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:49:22,997 basehttp 4036 1872 "GET /admin/myapp5/product/add/ HTTP/1.1" 200 12004
+INFO 2023-09-10 01:49:23,019 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:49:31,575 basehttp 4036 1872 "POST /admin/myapp5/product/add/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:49:31,591 basehttp 4036 1872 "GET /admin/myapp5/product/ HTTP/1.1" 200 11078
+INFO 2023-09-10 01:49:31,637 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:49:43,770 basehttp 4036 1872 "GET /admin/myapp5/product/1/change/ HTTP/1.1" 200 11937
+INFO 2023-09-10 01:49:43,804 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 01:49:48,869 basehttp 4036 1872 "GET /admin/myapp5/product/1/delete/ HTTP/1.1" 200 9028
+INFO 2023-09-10 01:49:48,927 basehttp 4036 1872 "GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO 2023-09-10 01:50:02,906 basehttp 4036 1872 "POST /admin/myapp5/product/1/delete/ HTTP/1.1" 302 0
+INFO 2023-09-10 01:50:02,920 basehttp 4036 1872 "GET /admin/myapp5/product/ HTTP/1.1" 200 10817
+INFO 2023-09-10 01:50:02,942 basehttp 4036 1872 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:24:04,686 autoreload 4036 4080 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\models.py changed, reloading.
+INFO 2023-09-10 02:24:05,375 autoreload 24528 7000 Watching for file changes with StatReloader
+INFO 2023-09-10 02:32:37,673 autoreload 23380 9840 Watching for file changes with StatReloader
+INFO 2023-09-10 02:32:47,628 basehttp 23380 17360 "GET /admin/myapp5/product/ HTTP/1.1" 200 10655
+INFO 2023-09-10 02:32:47,658 basehttp 23380 17360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:32:50,174 basehttp 23380 17360 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14493
+INFO 2023-09-10 02:32:50,207 basehttp 23380 17360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:33:48,414 basehttp 23380 17360 "POST /admin/myapp5/product/4/change/ HTTP/1.1" 302 0
+INFO 2023-09-10 02:33:48,443 basehttp 23380 17360 "GET /admin/myapp5/product/ HTTP/1.1" 200 10873
+INFO 2023-09-10 02:33:48,465 basehttp 23380 17360 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:35:01,372 autoreload 23380 9840 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:35:01,891 autoreload 22944 23100 Watching for file changes with StatReloader
+INFO 2023-09-10 02:35:51,317 autoreload 22944 23100 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:35:51,829 autoreload 25208 19292 Watching for file changes with StatReloader
+INFO 2023-09-10 02:35:55,338 basehttp 25208 25148 "GET /admin/myapp5/product/ HTTP/1.1" 200 11195
+INFO 2023-09-10 02:35:55,362 basehttp 25208 25148 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:36:25,760 basehttp 25208 25148 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 11603
+INFO 2023-09-10 02:36:25,790 basehttp 25208 25148 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:36:26,546 basehttp 25208 25148 "GET /admin/myapp5/product/?o=2.1 HTTP/1.1" 200 12093
+INFO 2023-09-10 02:36:26,579 basehttp 25208 25148 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:36:27,547 basehttp 25208 25148 "GET /admin/myapp5/product/?o=3.2.1 HTTP/1.1" 200 12506
+INFO 2023-09-10 02:36:27,579 basehttp 25208 25148 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:36:29,165 basehttp 25208 25148 "GET /admin/myapp5/product/?o=3.1 HTTP/1.1" 200 12093
+INFO 2023-09-10 02:36:29,200 basehttp 25208 25148 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:36:30,198 basehttp 25208 25148 "GET /admin/myapp5/product/?o=1 HTTP/1.1" 200 11603
+INFO 2023-09-10 02:36:30,216 basehttp 25208 25148 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:36:31,209 basehttp 25208 25148 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11295
+INFO 2023-09-10 02:36:31,240 basehttp 25208 25148 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:37:44,886 autoreload 25208 19292 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:37:45,465 autoreload 23148 23184 Watching for file changes with StatReloader
+INFO 2023-09-10 02:37:49,383 basehttp 23148 11196 "GET /admin/myapp5/product/?o= HTTP/1.1" 200 11295
+INFO 2023-09-10 02:37:49,401 basehttp 23148 11196 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:37:52,353 basehttp 23148 11196 "GET /admin/myapp5/product/ HTTP/1.1" 200 11985
+INFO 2023-09-10 02:37:52,368 basehttp 23148 11196 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:38:17,658 autoreload 23148 23184 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:38:18,203 autoreload 21160 20904 Watching for file changes with StatReloader
+INFO 2023-09-10 02:38:22,709 basehttp 21160 24504 "GET /admin/myapp5/product/ HTTP/1.1" 200 13233
+INFO 2023-09-10 02:38:22,732 basehttp 21160 24504 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:39:07,510 basehttp 21160 24504 "GET /admin/myapp5/product/?price=4235.00 HTTP/1.1" 200 13058
+INFO 2023-09-10 02:39:07,547 basehttp 21160 24504 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:39:10,679 basehttp 21160 24504 "GET /admin/myapp5/product/?price=999999.99 HTTP/1.1" 200 13417
+INFO 2023-09-10 02:39:10,709 basehttp 21160 24504 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:39:31,736 basehttp 21160 24504 "GET /admin/myapp5/product/? HTTP/1.1" 200 13233
+INFO 2023-09-10 02:39:31,771 basehttp 21160 24504 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:39:56,875 autoreload 21160 20904 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:39:57,463 autoreload 23080 22700 Watching for file changes with StatReloader
+INFO 2023-09-10 02:40:19,243 autoreload 23080 22700 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:40:19,787 autoreload 20440 23420 Watching for file changes with StatReloader
+INFO 2023-09-10 02:40:23,538 basehttp 20440 23520 "GET /admin/myapp5/product/ HTTP/1.1" 200 13727
+INFO 2023-09-10 02:40:23,555 basehttp 20440 23520 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:41:08,148 basehttp 20440 23520 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 14469
+INFO 2023-09-10 02:41:08,183 basehttp 20440 23520 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:41:17,405 basehttp 20440 23520 "POST /admin/myapp5/product/3/change/ HTTP/1.1" 302 0
+INFO 2023-09-10 02:41:17,421 basehttp 20440 23520 "GET /admin/myapp5/product/ HTTP/1.1" 200 13939
+INFO 2023-09-10 02:41:17,438 basehttp 20440 23520 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:41:19,365 basehttp 20440 23520 "GET /admin/myapp5/product/3/change/ HTTP/1.1" 200 14503
+INFO 2023-09-10 02:41:19,382 basehttp 20440 23520 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:41:20,923 basehttp 20440 23520 "GET /admin/myapp5/product/ HTTP/1.1" 200 13727
+INFO 2023-09-10 02:41:24,037 basehttp 20440 23520 "GET /admin/myapp5/product/?q=%D0%B2%D0%BA%D1%83%D1%81 HTTP/1.1" 200 13827
+INFO 2023-09-10 02:41:24,066 basehttp 20440 23520 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:43:45,844 autoreload 20440 23420 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:43:46,453 autoreload 11196 18556 Watching for file changes with StatReloader
+INFO 2023-09-10 02:44:59,413 autoreload 11196 18556 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:45:00,002 autoreload 20196 3848 Watching for file changes with StatReloader
+INFO 2023-09-10 02:45:03,600 basehttp 20196 18776 "GET /admin/myapp5/product/ HTTP/1.1" 200 13820
+INFO 2023-09-10 02:45:03,620 basehttp 20196 18776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:45:19,935 basehttp 20196 18776 "POST /admin/myapp5/product/ HTTP/1.1" 302 0
+INFO 2023-09-10 02:45:19,969 basehttp 20196 18776 "GET /admin/myapp5/product/ HTTP/1.1" 200 13818
+INFO 2023-09-10 02:45:19,988 basehttp 20196 18776 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:50:23,467 basehttp 20196 21016 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 14491
+INFO 2023-09-10 02:50:23,489 basehttp 20196 21016 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:52:57,159 autoreload 20196 3848 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:52:57,766 autoreload 19664 24088 Watching for file changes with StatReloader
+INFO 2023-09-10 02:53:58,983 basehttp 19664 4372 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 13715
+INFO 2023-09-10 02:53:59,001 basehttp 19664 4372 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:54:49,796 autoreload 19664 24088 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:54:50,290 autoreload 21204 23028 Watching for file changes with StatReloader
+INFO 2023-09-10 02:56:36,771 autoreload 21204 23028 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:56:37,351 autoreload 23280 23320 Watching for file changes with StatReloader
+INFO 2023-09-10 02:58:54,475 autoreload 23280 23320 C:\Users\gapli\Downloads\GB_Django\Lections\myproject\myapp5\admin.py changed, reloading.
+INFO 2023-09-10 02:58:55,045 autoreload 10764 2568 Watching for file changes with StatReloader
+INFO 2023-09-10 02:59:18,725 basehttp 10764 5920 "GET /admin/myapp5/product/4/change/ HTTP/1.1" 200 15627
+INFO 2023-09-10 02:59:18,745 basehttp 10764 24048 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:59:18,786 basehttp 10764 5920 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-10 02:59:20,683 basehttp 10764 5920 "GET /admin/myapp5/product/ HTTP/1.1" 200 13818
+INFO 2023-09-10 02:59:20,702 basehttp 10764 5920 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:59:21,636 basehttp 10764 5920 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15621
+INFO 2023-09-10 02:59:21,670 basehttp 10764 5920 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-10 02:59:51,730 basehttp 10764 5920 "GET /admin/myapp5/product/2/history/ HTTP/1.1" 200 8279
+INFO 2023-09-10 02:59:52,686 basehttp 10764 5920 "GET /admin/myapp5/product/2/change/ HTTP/1.1" 200 15621
