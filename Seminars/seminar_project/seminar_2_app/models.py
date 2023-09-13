@@ -2,6 +2,7 @@ from datetime import date
 
 from django.db import models
 from django.db.models import Manager
+from django.utils.timezone import now
 
 
 # Create your models here.
@@ -55,7 +56,7 @@ class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     comment = models.TextField(max_length=1000)
     publish_date = models.DateField(auto_now_add=True)
-    change_date = models.DateField(default=date.today())
+    change_date = models.DateField(default=now)
 
     def __str__(self):
         return f'{self.author}, {self.comment}, {self.post}'

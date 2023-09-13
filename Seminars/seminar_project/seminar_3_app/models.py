@@ -3,6 +3,7 @@ from datetime import date
 from django.db import models
 from django.db.models import Manager
 from django.urls import reverse
+from django.utils.timezone import now
 
 
 # Create your models here.
@@ -47,7 +48,7 @@ class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
     comment = models.TextField(max_length=1000)
     publish_date = models.DateField(auto_now_add=True)
-    change_date = models.DateField(default=date.today())
+    change_date = models.DateField(default=now)
 
     def get_absolute_url(self):
         return reverse('post', kwargs={'pk': self.post.pk})

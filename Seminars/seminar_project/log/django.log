@@ -2147,3 +2147,348 @@ INFO 2023-09-09 19:07:19,196 basehttp 4568 23728 "POST /sem_4/post/1/ HTTP/1.1" 
 INFO 2023-09-09 19:07:19,659 basehttp 4568 23728 "GET /sem_4/post/1/ HTTP/1.1" 200 84752
 INFO 2023-09-09 19:07:27,949 basehttp 4568 23728 "GET /sem_3/author/3/ HTTP/1.1" 200 8559
 INFO 2023-09-09 19:07:29,771 basehttp 4568 23728 "GET /sem_4/post/13/ HTTP/1.1" 200 79030
+INFO 2023-09-13 12:39:02,882 autoreload 4280 20376 Watching for file changes with StatReloader
+INFO 2023-09-13 12:39:04,588 basehttp 4280 18896 "GET / HTTP/1.1" 200 13
+WARNING 2023-09-13 12:39:04,742 log 4280 18896 Not Found: /favicon.ico
+WARNING 2023-09-13 12:39:04,743 basehttp 4280 18896 "GET /favicon.ico HTTP/1.1" 404 2710
+INFO 2023-09-13 12:39:30,902 basehttp 4280 18896 "GET /admin HTTP/1.1" 301 0
+INFO 2023-09-13 12:39:30,921 basehttp 4280 7872 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 12:39:31,020 basehttp 4280 7872 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-09-13 12:39:31,117 basehttp 4280 7872 "GET /static/admin/css/base.css HTTP/1.1" 200 21207
+INFO 2023-09-13 12:39:31,133 basehttp 4280 7872 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2023-09-13 12:39:31,159 basehttp 4280 1676 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+INFO 2023-09-13 12:39:31,180 basehttp 4280 14388 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+INFO 2023-09-13 12:39:31,181 basehttp 4280 21152 "GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO 2023-09-13 12:39:31,183 basehttp 4280 4192 "GET /static/admin/css/responsive.css HTTP/1.1" 200 18533
+INFO 2023-09-13 12:39:31,184 basehttp 4280 14544 "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2023-09-13 12:39:38,815 basehttp 4280 14544 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 12:39:38,840 basehttp 4280 14544 "GET /admin/ HTTP/1.1" 200 5556
+INFO 2023-09-13 12:39:38,866 basehttp 4280 14544 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2023-09-13 12:39:38,877 basehttp 4280 14544 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2023-09-13 12:39:38,878 basehttp 4280 4192 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2023-09-13 13:00:18,875 basehttp 4280 6536 "GET /admin/ HTTP/1.1" 200 5556
+INFO 2023-09-13 13:00:20,194 basehttp 4280 6536 "GET /admin/ HTTP/1.1" 200 5556
+INFO 2023-09-13 13:00:31,864 autoreload 24504 18328 Watching for file changes with StatReloader
+INFO 2023-09-13 13:00:33,932 basehttp 24504 20824 "GET /admin/ HTTP/1.1" 200 5556
+INFO 2023-09-13 13:00:35,230 basehttp 24504 20824 "GET /admin/ HTTP/1.1" 200 5556
+INFO 2023-09-13 13:00:41,617 basehttp 24504 20824 "GET /admin/auth/group/ HTTP/1.1" 200 7251
+INFO 2023-09-13 13:00:41,643 basehttp 24504 2160 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:00:41,721 basehttp 24504 20824 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+INFO 2023-09-13 13:00:41,735 basehttp 24504 20824 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2023-09-13 13:00:41,748 basehttp 24504 20824 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2023-09-13 13:00:41,750 basehttp 24504 13992 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2023-09-13 13:00:41,763 basehttp 24504 24500 "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+INFO 2023-09-13 13:00:41,764 basehttp 24504 24180 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 292458
+INFO 2023-09-13 13:00:41,770 basehttp 24504 9336 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+INFO 2023-09-13 13:00:41,771 basehttp 24504 2160 "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO 2023-09-13 13:00:41,794 basehttp 24504 2160 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2023-09-13 13:00:41,803 basehttp 24504 2160 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2023-09-13 13:00:41,808 basehttp 24504 20824 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO 2023-09-13 13:00:41,823 basehttp 24504 20824 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2023-09-13 13:00:42,940 basehttp 24504 20824 "GET /admin/ HTTP/1.1" 200 5556
+INFO 2023-09-13 13:01:21,596 autoreload 24504 18328 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 13:01:22,078 autoreload 8792 2288 Watching for file changes with StatReloader
+INFO 2023-09-13 13:01:25,159 basehttp 8792 23592 "GET /admin/ HTTP/1.1" 200 7581
+INFO 2023-09-13 13:01:53,169 basehttp 8792 23592 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 13692
+INFO 2023-09-13 13:01:53,199 basehttp 8792 23592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:01:56,184 basehttp 8792 23592 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 33360
+INFO 2023-09-13 13:01:56,222 basehttp 8792 23592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:02:06,891 basehttp 8792 23592 "GET /admin/seminar_3_app/post/1351/change/ HTTP/1.1" 200 16535
+INFO 2023-09-13 13:02:06,916 basehttp 8792 3196 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:02:06,960 basehttp 8792 23592 "GET /static/admin/css/forms.css HTTP/1.1" 200 9047
+INFO 2023-09-13 13:02:06,969 basehttp 8792 23592 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2023-09-13 13:02:06,969 basehttp 8792 20868 "GET /static/admin/css/widgets.css HTTP/1.1" 200 11900
+INFO 2023-09-13 13:02:06,973 basehttp 8792 3196 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2023-09-13 13:02:06,977 basehttp 8792 23592 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2023-09-13 13:02:06,990 basehttp 8792 3196 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2023-09-13 13:02:06,993 basehttp 8792 23592 "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2023-09-13 13:02:08,757 basehttp 8792 23592 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 33360
+INFO 2023-09-13 13:02:10,202 basehttp 8792 23592 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 13692
+INFO 2023-09-13 13:02:10,230 basehttp 8792 23592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:02:11,131 basehttp 8792 23592 "GET /admin/seminar_3_app/author/20/change/ HTTP/1.1" 200 12277
+INFO 2023-09-13 13:02:11,161 basehttp 8792 3196 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:02:11,172 basehttp 8792 23592 "GET /static/admin/js/calendar.js HTTP/1.1" 200 8466
+INFO 2023-09-13 13:02:11,172 basehttp 8792 20868 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2023-09-13 13:02:11,201 basehttp 8792 23592 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2023-09-13 13:02:12,400 basehttp 8792 23592 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 13692
+INFO 2023-09-13 13:02:14,146 basehttp 8792 23592 "GET /admin/seminar_3_app/author/1/change/ HTTP/1.1" 200 12263
+INFO 2023-09-13 13:02:14,181 basehttp 8792 23592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:02:22,911 basehttp 8792 23592 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 13692
+INFO 2023-09-13 13:02:24,880 basehttp 8792 23592 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 33360
+INFO 2023-09-13 13:02:24,899 basehttp 8792 23592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:02:31,726 basehttp 8792 23592 "GET /admin/seminar_3_app/post/1351/change/ HTTP/1.1" 200 16535
+INFO 2023-09-13 13:02:31,757 basehttp 8792 23592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:02:32,850 basehttp 8792 23592 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 33360
+INFO 2023-09-13 13:02:43,620 basehttp 8792 23592 "GET /admin/seminar_3_app/post/?p=14 HTTP/1.1" 200 23032
+INFO 2023-09-13 13:02:43,645 basehttp 8792 23592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:02:46,971 basehttp 8792 23592 "GET /admin/seminar_3_app/post/1/change/?_changelist_filters=p%3D14 HTTP/1.1" 200 17076
+INFO 2023-09-13 13:02:47,008 basehttp 8792 23592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:02:59,463 basehttp 8792 23592 "GET /admin/seminar_3_app/post/?p=14 HTTP/1.1" 200 23032
+INFO 2023-09-13 13:03:01,182 basehttp 8792 23592 "GET /admin/seminar_3_app/comment/ HTTP/1.1" 200 35867
+INFO 2023-09-13 13:03:01,205 basehttp 8792 23592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:03:04,342 basehttp 8792 23592 "GET /admin/seminar_3_app/category/ HTTP/1.1" 200 12831
+INFO 2023-09-13 13:03:04,377 basehttp 8792 23592 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:45:11,502 basehttp 8792 14000 "GET /admin/auth/group/add/ HTTP/1.1" 200 14623
+INFO 2023-09-13 13:45:11,527 basehttp 8792 14000 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:45:11,539 basehttp 8792 20244 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+INFO 2023-09-13 13:45:11,542 basehttp 8792 21520 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+INFO 2023-09-13 13:45:11,588 basehttp 8792 14000 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2023-09-13 13:45:11,588 basehttp 8792 21520 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2023-09-13 13:45:11,589 basehttp 8792 20244 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2023-09-13 13:49:25,335 basehttp 8792 20244 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:49:25,352 basehttp 8792 20244 "GET /admin/auth/group/add/ HTTP/1.1" 200 14860
+INFO 2023-09-13 13:49:25,383 basehttp 8792 20244 "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO 2023-09-13 13:49:25,402 basehttp 8792 20244 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2023-09-13 13:49:43,144 autoreload 8792 2288 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_project\settings.py changed, reloading.
+INFO 2023-09-13 13:49:43,658 autoreload 20428 13124 Watching for file changes with StatReloader
+INFO 2023-09-13 13:49:47,163 basehttp 20428 5452 "GET /admin/auth/group/add/ HTTP/1.1" 200 15480
+INFO 2023-09-13 13:49:47,186 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:49:50,186 basehttp 20428 5452 "GET /admin/auth/group/ HTTP/1.1" 200 10446
+INFO 2023-09-13 13:49:50,206 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:49:51,303 basehttp 20428 5452 "GET /admin/auth/group/add/ HTTP/1.1" 200 15480
+INFO 2023-09-13 13:49:51,335 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:50:01,291 basehttp 20428 5452 "GET /admin/auth/group/ HTTP/1.1" 200 10446
+INFO 2023-09-13 13:50:01,307 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:50:02,793 basehttp 20428 5452 "GET /admin/auth/group/add/ HTTP/1.1" 200 15480
+INFO 2023-09-13 13:50:02,821 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:51:02,081 basehttp 20428 5452 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:51:02,099 basehttp 20428 5452 "GET /admin/auth/group/add/ HTTP/1.1" 200 15777
+INFO 2023-09-13 13:51:02,117 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:52:01,317 basehttp 20428 5452 "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:52:01,328 basehttp 20428 5452 "GET /admin/auth/group/ HTTP/1.1" 200 11079
+INFO 2023-09-13 13:52:01,356 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:53:43,347 basehttp 20428 5452 "GET /admin/auth/user/add/ HTTP/1.1" 200 12527
+INFO 2023-09-13 13:53:43,365 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:53:52,741 basehttp 20428 5452 "GET /admin/auth/group/ HTTP/1.1" 200 10866
+INFO 2023-09-13 13:53:52,769 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:53:54,186 basehttp 20428 5452 "GET /admin/auth/user/ HTTP/1.1" 200 13302
+INFO 2023-09-13 13:53:54,204 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:53:54,253 basehttp 20428 5452 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2023-09-13 13:53:55,764 basehttp 20428 5452 "GET /admin/auth/user/add/ HTTP/1.1" 200 12527
+INFO 2023-09-13 13:53:55,791 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:54:15,473 basehttp 20428 5452 "POST /admin/auth/user/add/ HTTP/1.1" 200 12749
+INFO 2023-09-13 13:54:15,490 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:54:26,263 basehttp 20428 5452 "POST /admin/auth/user/add/ HTTP/1.1" 200 12749
+INFO 2023-09-13 13:54:26,288 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:54:34,032 basehttp 20428 5452 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:54:34,080 basehttp 20428 5452 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26231
+INFO 2023-09-13 13:54:34,096 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:54:34,138 basehttp 20428 5452 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2023-09-13 13:55:55,098 basehttp 20428 5452 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:55:55,114 basehttp 20428 5452 "GET /admin/auth/user/add/ HTTP/1.1" 200 12820
+INFO 2023-09-13 13:55:55,143 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:56:16,666 basehttp 20428 5452 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:56:16,690 basehttp 20428 5452 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 26241
+INFO 2023-09-13 13:56:16,715 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:56:54,506 basehttp 20428 5452 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:56:54,519 basehttp 20428 5452 "GET /admin/auth/user/add/ HTTP/1.1" 200 12822
+INFO 2023-09-13 13:56:54,548 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:57:18,714 basehttp 20428 5452 "POST /admin/auth/user/add/ HTTP/1.1" 200 12757
+INFO 2023-09-13 13:57:18,732 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:57:27,533 basehttp 20428 5452 "POST /admin/auth/user/add/ HTTP/1.1" 200 12749
+INFO 2023-09-13 13:57:27,560 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:57:39,292 basehttp 20428 5452 "POST /admin/auth/user/add/ HTTP/1.1" 200 12718
+INFO 2023-09-13 13:57:39,306 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:57:46,976 basehttp 20428 5452 "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:57:46,999 basehttp 20428 5452 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 26231
+INFO 2023-09-13 13:57:47,036 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:58:23,095 basehttp 20428 5452 "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:58:23,109 basehttp 20428 5452 "GET /admin/auth/user/ HTTP/1.1" 200 14823
+INFO 2023-09-13 13:58:23,132 basehttp 20428 5452 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:58:23,138 basehttp 20428 14740 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2023-09-13 13:58:33,293 basehttp 20428 14740 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-13 13:58:34,264 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:58:34,273 basehttp 20428 14740 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-13 13:58:45,168 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4535
+INFO 2023-09-13 13:58:52,866 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4533
+INFO 2023-09-13 13:58:59,196 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4535
+INFO 2023-09-13 13:59:03,260 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:59:03,273 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 200 10693
+INFO 2023-09-13 13:59:04,687 basehttp 20428 14740 "GET /admin/auth/user/ HTTP/1.1" 200 14601
+INFO 2023-09-13 13:59:04,714 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:59:14,357 basehttp 20428 14740 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-13 13:59:15,672 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:59:15,678 basehttp 20428 14740 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-13 13:59:25,886 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4537
+INFO 2023-09-13 13:59:34,364 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4537
+INFO 2023-09-13 13:59:39,464 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:59:39,475 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 200 10693
+INFO 2023-09-13 13:59:40,718 basehttp 20428 14740 "GET /admin/auth/user/ HTTP/1.1" 200 14601
+INFO 2023-09-13 13:59:40,744 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:59:41,990 basehttp 20428 14740 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 26137
+INFO 2023-09-13 13:59:42,008 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 13:59:47,318 basehttp 20428 14740 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-13 13:59:48,219 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 13:59:48,226 basehttp 20428 14740 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-13 14:00:02,079 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4537
+INFO 2023-09-13 14:00:07,836 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4537
+INFO 2023-09-13 14:00:11,619 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:00:11,631 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 200 10693
+INFO 2023-09-13 14:00:12,782 basehttp 20428 14740 "GET /admin/auth/user/ HTTP/1.1" 200 14601
+INFO 2023-09-13 14:00:12,799 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:00:16,871 basehttp 20428 14740 "GET /admin/auth/user/4/change/ HTTP/1.1" 200 26156
+INFO 2023-09-13 14:00:16,904 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:00:22,583 basehttp 20428 14740 "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:00:22,597 basehttp 20428 14740 "GET /admin/auth/user/ HTTP/1.1" 200 14823
+INFO 2023-09-13 14:00:22,613 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:00:23,970 basehttp 20428 14740 "GET /admin/auth/user/2/change/ HTTP/1.1" 200 26055
+INFO 2023-09-13 14:00:24,000 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:00:27,802 basehttp 20428 14740 "POST /admin/auth/user/2/change/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:00:27,817 basehttp 20428 14740 "GET /admin/auth/user/ HTTP/1.1" 200 14823
+INFO 2023-09-13 14:00:27,839 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:00:28,749 basehttp 20428 14740 "GET /admin/auth/user/3/change/ HTTP/1.1" 200 26137
+INFO 2023-09-13 14:00:28,777 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:00:34,743 basehttp 20428 14740 "POST /admin/auth/user/3/change/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:00:34,758 basehttp 20428 14740 "GET /admin/auth/user/ HTTP/1.1" 200 14825
+INFO 2023-09-13 14:00:34,777 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:00:36,255 basehttp 20428 14740 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-13 14:00:37,126 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:00:37,133 basehttp 20428 14740 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-13 14:00:47,016 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:00:47,025 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 200 6503
+INFO 2023-09-13 14:00:49,034 basehttp 20428 14740 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 9751
+INFO 2023-09-13 14:00:50,503 basehttp 20428 14740 "GET /admin/seminar_3_app/author/20/change/ HTTP/1.1" 200 10578
+INFO 2023-09-13 14:00:50,530 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:00:54,995 basehttp 20428 14740 "GET /admin/seminar_3_app/category/ HTTP/1.1" 200 9449
+INFO 2023-09-13 14:00:55,892 basehttp 20428 14740 "GET /admin/seminar_3_app/category/14/change/ HTTP/1.1" 200 8346
+INFO 2023-09-13 14:00:55,925 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:00:56,506 basehttp 20428 14740 "GET /admin/seminar_3_app/category/ HTTP/1.1" 200 9449
+INFO 2023-09-13 14:00:57,226 basehttp 20428 14740 "GET /admin/seminar_3_app/comment/ HTTP/1.1" 200 22548
+INFO 2023-09-13 14:00:58,252 basehttp 20428 14740 "GET /admin/seminar_3_app/comment/132/change/ HTTP/1.1" 200 10352
+INFO 2023-09-13 14:00:58,287 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:00:59,008 basehttp 20428 14740 "GET /admin/seminar_3_app/comment/ HTTP/1.1" 200 22548
+INFO 2023-09-13 14:00:59,426 basehttp 20428 14740 "GET /admin/seminar_3_app/category/ HTTP/1.1" 200 9449
+INFO 2023-09-13 14:01:00,372 basehttp 20428 14740 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-13 14:01:01,282 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:01:01,289 basehttp 20428 14740 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-13 14:01:10,258 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:01:10,269 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 200 6804
+INFO 2023-09-13 14:01:12,264 basehttp 20428 14740 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 10194
+INFO 2023-09-13 14:01:13,005 basehttp 20428 14740 "GET /admin/seminar_3_app/author/20/change/ HTTP/1.1" 200 11779
+INFO 2023-09-13 14:01:13,022 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:01:15,219 basehttp 20428 14740 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-13 14:01:15,945 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:01:15,951 basehttp 20428 14740 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-13 14:01:24,314 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:01:24,324 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 200 6798
+INFO 2023-09-13 14:01:25,716 basehttp 20428 14740 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 13292
+INFO 2023-09-13 14:01:25,732 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:01:26,548 basehttp 20428 14740 "GET /admin/seminar_3_app/author/19/change/ HTTP/1.1" 200 11863
+INFO 2023-09-13 14:01:26,584 basehttp 20428 14740 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:01:34,132 basehttp 20428 14740 "POST /admin/logout/ HTTP/1.1" 200 3709
+INFO 2023-09-13 14:01:35,405 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:01:35,411 basehttp 20428 14740 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4267
+INFO 2023-09-13 14:05:01,458 basehttp 20428 14740 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2023-09-13 14:05:01,472 basehttp 20428 14740 "GET /admin/ HTTP/1.1" 200 11004
+INFO 2023-09-13 14:08:35,959 autoreload 20428 13124 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:08:36,570 autoreload 22840 10296 Watching for file changes with StatReloader
+INFO 2023-09-13 14:08:49,072 autoreload 22840 10296 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:08:49,639 autoreload 8588 14052 Watching for file changes with StatReloader
+INFO 2023-09-13 14:09:16,576 autoreload 8588 14052 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:09:17,063 autoreload 22432 19372 Watching for file changes with StatReloader
+INFO 2023-09-13 14:09:32,806 autoreload 22432 19372 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:09:33,275 autoreload 12936 2576 Watching for file changes with StatReloader
+INFO 2023-09-13 14:10:02,214 autoreload 12936 2576 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:10:02,677 autoreload 15640 5096 Watching for file changes with StatReloader
+INFO 2023-09-13 14:10:32,330 autoreload 5072 13156 Watching for file changes with StatReloader
+INFO 2023-09-13 14:11:17,605 autoreload 5072 13156 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\models.py changed, reloading.
+INFO 2023-09-13 14:16:50,226 autoreload 21764 8828 Watching for file changes with StatReloader
+INFO 2023-09-13 14:16:53,794 basehttp 21764 12728 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 33947
+INFO 2023-09-13 14:16:53,824 basehttp 21764 12728 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:16:57,990 basehttp 21764 12728 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 33947
+INFO 2023-09-13 14:16:58,011 basehttp 21764 12728 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:16:59,322 basehttp 21764 12728 "GET /admin/seminar_3_app/comment/ HTTP/1.1" 200 36478
+INFO 2023-09-13 14:16:59,340 basehttp 21764 12728 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:17:00,816 basehttp 21764 12728 "GET /admin/seminar_3_app/category/ HTTP/1.1" 200 13153
+INFO 2023-09-13 14:17:00,845 basehttp 21764 12728 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:17:03,129 basehttp 21764 12728 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 15479
+INFO 2023-09-13 14:17:03,151 basehttp 21764 12728 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:17:04,905 basehttp 21764 12728 "GET /admin/seminar_3_app/category/ HTTP/1.1" 200 13153
+INFO 2023-09-13 14:17:04,930 basehttp 21764 12728 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:17:05,988 basehttp 21764 12728 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 15479
+INFO 2023-09-13 14:17:06,003 basehttp 21764 12728 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:17:15,660 basehttp 21764 12728 "GET /admin/seminar_3_app/author/20/change/ HTTP/1.1" 200 12779
+INFO 2023-09-13 14:17:15,690 basehttp 21764 12728 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:17:20,215 basehttp 21764 12728 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 15479
+INFO 2023-09-13 14:17:22,967 basehttp 21764 12728 "GET /admin/seminar_3_app/author/20/change/ HTTP/1.1" 200 12779
+INFO 2023-09-13 14:17:22,985 basehttp 21764 12728 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:17:24,706 basehttp 21764 12728 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 15479
+INFO 2023-09-13 14:17:31,670 autoreload 21764 8828 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:17:32,191 autoreload 19500 1480 Watching for file changes with StatReloader
+INFO 2023-09-13 14:17:34,177 basehttp 19500 24808 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 16455
+INFO 2023-09-13 14:17:34,197 basehttp 19500 24808 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:18:20,851 autoreload 19500 1480 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:18:21,410 autoreload 20412 21196 Watching for file changes with StatReloader
+INFO 2023-09-13 14:27:02,111 autoreload 20412 21196 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:27:02,562 autoreload 7056 4688 Watching for file changes with StatReloader
+INFO 2023-09-13 14:27:06,484 basehttp 7056 17504 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 33947
+INFO 2023-09-13 14:27:06,515 basehttp 7056 17504 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:27:15,334 autoreload 7056 4688 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:27:15,827 autoreload 14176 6000 Watching for file changes with StatReloader
+INFO 2023-09-13 14:27:19,374 basehttp 14176 4784 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 53067
+INFO 2023-09-13 14:27:19,400 basehttp 14176 4784 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:28:29,083 autoreload 14176 6000 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:28:29,548 autoreload 12316 23636 Watching for file changes with StatReloader
+INFO 2023-09-13 14:28:30,728 basehttp 12316 17384 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 61609
+INFO 2023-09-13 14:28:30,746 basehttp 12316 17384 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:28:38,142 basehttp 12316 17384 "GET /admin/seminar_3_app/post/1351/change/ HTTP/1.1" 200 17451
+INFO 2023-09-13 14:28:38,162 basehttp 12316 17384 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 14:28:39,351 basehttp 12316 17384 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 61609
+INFO 2023-09-13 14:47:53,911 autoreload 12316 23636 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:47:54,556 autoreload 2824 7272 Watching for file changes with StatReloader
+INFO 2023-09-13 14:48:42,718 autoreload 2824 7272 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 14:48:43,149 autoreload 6748 16512 Watching for file changes with StatReloader
+INFO 2023-09-13 15:02:18,071 autoreload 6748 16512 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:02:18,666 autoreload 2676 22596 Watching for file changes with StatReloader
+INFO 2023-09-13 15:02:52,560 autoreload 2676 22596 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:02:53,093 autoreload 1820 4016 Watching for file changes with StatReloader
+INFO 2023-09-13 15:03:56,931 autoreload 1820 4016 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:03:57,442 autoreload 17024 20956 Watching for file changes with StatReloader
+INFO 2023-09-13 15:03:59,937 basehttp 17024 11104 "GET /admin/seminar_3_app/comment/ HTTP/1.1" 200 40273
+INFO 2023-09-13 15:03:59,967 basehttp 17024 11104 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:04:07,030 basehttp 17024 11104 "GET /admin/seminar_3_app/comment/add/ HTTP/1.1" 200 91931
+INFO 2023-09-13 15:04:07,058 basehttp 17024 11104 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:04:11,304 basehttp 17024 11104 "POST /admin/seminar_3_app/comment/add/ HTTP/1.1" 200 92225
+INFO 2023-09-13 15:04:11,336 basehttp 17024 11104 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:04:15,729 basehttp 17024 11104 "POST /admin/seminar_3_app/comment/add/ HTTP/1.1" 302 0
+INFO 2023-09-13 15:04:15,764 basehttp 17024 11104 "GET /admin/seminar_3_app/comment/ HTTP/1.1" 200 40641
+INFO 2023-09-13 15:04:15,786 basehttp 17024 11104 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:05:32,291 basehttp 17024 11104 "GET /admin/seminar_3_app/post/ HTTP/1.1" 200 61609
+INFO 2023-09-13 15:05:32,327 basehttp 17024 11104 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:05:36,782 basehttp 17024 11104 "GET /admin/seminar_3_app/post/?p=14 HTTP/1.1" 200 38040
+INFO 2023-09-13 15:05:36,806 basehttp 17024 11104 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:11:37,548 autoreload 17024 20956 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:11:38,147 autoreload 21452 3824 Watching for file changes with StatReloader
+INFO 2023-09-13 15:11:39,493 basehttp 21452 12112 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 16455
+INFO 2023-09-13 15:11:39,532 basehttp 21452 12112 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:11:40,399 basehttp 21452 12112 "GET /admin/seminar_3_app/author/20/change/ HTTP/1.1" 200 12559
+INFO 2023-09-13 15:11:40,424 basehttp 21452 12112 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:32:04,411 autoreload 21452 3824 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:32:04,946 autoreload 15064 16228 Watching for file changes with StatReloader
+INFO 2023-09-13 15:32:22,710 basehttp 15064 19256 "GET /admin/seminar_3_app/author/20/change/ HTTP/1.1" 200 12807
+INFO 2023-09-13 15:32:22,735 basehttp 15064 19256 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:32:22,787 basehttp 15064 5504 "GET /static/admin/js/collapse.js HTTP/1.1" 200 1803
+INFO 2023-09-13 15:36:13,478 autoreload 15064 16228 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:36:13,936 autoreload 15580 6660 Watching for file changes with StatReloader
+INFO 2023-09-13 15:36:15,636 basehttp 15580 15664 "GET /admin/seminar_3_app/author/20/change/ HTTP/1.1" 200 12824
+INFO 2023-09-13 15:36:15,660 basehttp 15580 15664 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:38:07,196 autoreload 15580 6660 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:38:07,704 autoreload 17912 5264 Watching for file changes with StatReloader
+INFO 2023-09-13 15:38:12,822 basehttp 17912 23688 "GET /admin/seminar_3_app/author/ HTTP/1.1" 200 16928
+INFO 2023-09-13 15:38:12,846 basehttp 17912 23688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:38:17,609 basehttp 17912 23688 "GET /admin/seminar_3_app/author/?q=Ilya HTTP/1.1" 200 10081
+INFO 2023-09-13 15:38:17,646 basehttp 17912 23688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:38:21,703 basehttp 17912 23688 "GET /admin/seminar_3_app/author/?q=Chistov HTTP/1.1" 200 11862
+INFO 2023-09-13 15:38:21,729 basehttp 17912 23688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:38:46,066 basehttp 17912 23688 "GET /admin/seminar_3_app/author/?q=Chi HTTP/1.1" 200 11830
+INFO 2023-09-13 15:38:46,110 basehttp 17912 23688 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:39:00,532 autoreload 17912 5264 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:39:01,061 autoreload 12916 24808 Watching for file changes with StatReloader
+INFO 2023-09-13 15:40:08,920 autoreload 12916 24808 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:40:09,436 autoreload 5920 4192 Watching for file changes with StatReloader
+INFO 2023-09-13 15:40:47,094 basehttp 5920 17524 "GET /admin/seminar_3_app/author/?q=Chi HTTP/1.1" 200 11830
+INFO 2023-09-13 15:40:47,132 basehttp 5920 17524 "GET /admin/jsi18n/ HTTP/1.1" 200 16066
+INFO 2023-09-13 15:43:08,300 autoreload 5920 4192 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:43:08,782 autoreload 5096 11000 Watching for file changes with StatReloader
+INFO 2023-09-13 15:43:27,602 autoreload 5096 11000 C:\Users\gapli\Downloads\GB_Django\Seminars\seminar_project\seminar_3_app\admin.py changed, reloading.
+INFO 2023-09-13 15:43:28,148 autoreload 22716 12420 Watching for file changes with StatReloader
