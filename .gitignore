@@ -1,0 +1,4 @@
+/Lections/myproject/media/
+*.sqlite3
+*.log
+*.pyc
